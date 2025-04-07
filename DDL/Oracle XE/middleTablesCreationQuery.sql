@@ -21,7 +21,7 @@ CREATE TABLE services (
     name VARCHAR2(255),
     branch_id NUMBER(10),
     costs NUMBER(10, 2),
-    date DATE,
+    issue_date DATE,
     CONSTRAINT fk_services_branches_id
         FOREIGN KEY (branch_id)
         REFERENCES branches(id)
