@@ -1,4 +1,4 @@
-# SQL script executor for executing DDL and DML scripts.
+# SQL script executors for executing DDL and DML scripts.
 
 def execute_sql_ddl_script(connection, script_path):
     try:
@@ -33,14 +33,12 @@ def execute_sql_dml_script(connection, script_path, data_dict, N):
         with open(script_path, 'r') as file:
             sql_script = file.read()
 
-        # Separar el archivo SQL por bloques de tablas (por ejemplo, por --- TABLE_NAME --- )
         sections = sql_script.split('-- SECTION ')
 
         for section in sections:
             if not section.strip():
                 continue
 
-            # El nombre de la sección es la primera línea
             lines = section.strip().splitlines()
             table_name = lines[0].strip()
             insert_statement = "\n".join(lines[1:]).strip()
@@ -52,7 +50,6 @@ def execute_sql_dml_script(connection, script_path, data_dict, N):
                 if i < len(data_dict[table_name]):
                     record = data_dict[table_name][i]
 
-                    # Ejecutar usando los valores del diccionario
                     cursor.execute(insert_statement, tuple(record.values()))
 
         connection.commit()

@@ -63,7 +63,7 @@ def generate_schema_mysql():
 
 def generate_schema_oracle():
     # Change these values according to your Oracle XE setup.
-    host = "localhost"
+    host = "localhost"    # Or the Docker container name if using Docker.
     username = "sa"
     password = "your_secure_password"
 
@@ -86,7 +86,7 @@ def generate_schema_oracle():
 
 def generate_schema_postgresql():
     # Change these values according to your PostgreSQL setup.
-    host = "localhost"
+    host = "localhost"    # Or the Docker container name if using Docker.
     database = "supermercado"
     user = "postgres"
     password = "your_secure_password"
