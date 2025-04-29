@@ -1,3 +1,4 @@
+-- SECTION purchases
 CREATE TABLE purchases (
     id INTEGER PRIMARY KEY,
     purchase_number INTEGER,
@@ -15,6 +16,7 @@ CREATE TABLE purchases (
     FOREIGN KEY (branch_id) REFERENCES branches(id)
 );
 
+-- SECTION checkout
 CREATE TABLE checkout (
     id INTEGER PRIMARY KEY,
     number INTEGER,
@@ -24,6 +26,7 @@ CREATE TABLE checkout (
     FOREIGN KEY (employee_id) REFERENCES employees(id)
 );
 
+-- SECTION sales
 CREATE TABLE sales (
     id INTEGER PRIMARY KEY,
     sale_number INTEGER,

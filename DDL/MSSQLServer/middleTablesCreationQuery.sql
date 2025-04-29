@@ -1,3 +1,4 @@
+-- SECTION products
 CREATE TABLE products (
 	id INT CONSTRAINT pk_products_id PRIMARY KEY,
 	name VARCHAR(255),
@@ -16,6 +17,7 @@ CREATE TABLE products (
 		REFERENCES categories(id)
 );
 
+-- SECTION services
 CREATE TABLE services (
 	id INT CONSTRAINT pk_services_id PRIMARY KEY,
 	name VARCHAR(255),
@@ -27,6 +29,7 @@ CREATE TABLE services (
 		REFERENCES branches(id)
 );
 
+-- SECTION employees
 CREATE TABLE employees (
 	id INT CONSTRAINT pk_employees_id PRIMARY KEY,
 	name VARCHAR(255),

@@ -1,8 +1,10 @@
+-- SECTION categories
 CREATE TABLE categories (
 	id INT CONSTRAINT pk_categories_id PRIMARY KEY,
 	name VARCHAR(255)
 );
 
+-- SECTION providers
 CREATE TABLE providers (
 	id INT CONSTRAINT pk_providers_id PRIMARY KEY,
 	brand_name VARCHAR(255),
@@ -15,6 +17,7 @@ CREATE TABLE providers (
 	rfc VARCHAR(255)
 );
 
+-- SECTION branches
 CREATE TABLE branches (
 	id INT CONSTRAINT pk_branches_id PRIMARY KEY,
 	name VARCHAR(255),
@@ -23,6 +26,7 @@ CREATE TABLE branches (
 	state VARCHAR(255)
 );
 
+-- SECTION positions
 CREATE TABLE positions (
 	id INT CONSTRAINT pk_positions_id PRIMARY KEY,
 	name VARCHAR(255),

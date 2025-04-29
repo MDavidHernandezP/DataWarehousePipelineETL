@@ -1,3 +1,4 @@
+-- SECTION products
 CREATE TABLE products (
     id INTEGER PRIMARY KEY,
     name VARCHAR(255),
@@ -12,6 +13,7 @@ CREATE TABLE products (
     FOREIGN KEY (category_id) REFERENCES categories(id)
 );
 
+-- SECTION services
 CREATE TABLE services (
     id INTEGER PRIMARY KEY,
     name VARCHAR(255),
@@ -21,6 +23,7 @@ CREATE TABLE services (
     FOREIGN KEY (branch_id) REFERENCES branches(id)
 );
 
+-- SECTION employees
 CREATE TABLE employees (
     id INTEGER PRIMARY KEY,
     name VARCHAR(255),

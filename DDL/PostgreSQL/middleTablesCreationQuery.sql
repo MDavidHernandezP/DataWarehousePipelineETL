@@ -1,3 +1,4 @@
+-- SECTION products
 CREATE TABLE products (
     id INT PRIMARY KEY,
     name VARCHAR(255),
@@ -14,6 +15,7 @@ CREATE TABLE products (
       REFERENCES categories(id)
 );
 
+-- SECTION services
 CREATE TABLE services (
     id INT PRIMARY KEY,
     name VARCHAR(255),
@@ -24,6 +26,7 @@ CREATE TABLE services (
       REFERENCES branches(id)
 );
 
+-- SECTION employees
 CREATE TABLE employees (
     id INT PRIMARY KEY,
     name VARCHAR(255),

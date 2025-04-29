@@ -1,3 +1,4 @@
+-- SECTION purchases
 CREATE TABLE purchases (
     id NUMBER(10) CONSTRAINT pk_purchases_id PRIMARY KEY,
     purchase_number NUMBER(20),
@@ -21,6 +22,7 @@ CREATE TABLE purchases (
         REFERENCES branches(id)
 );
 
+-- SECTION checkout
 CREATE TABLE checkout (
     id NUMBER(10) CONSTRAINT pk_checkout_id PRIMARY KEY,
     checkout_number NUMBER(10),
@@ -34,6 +36,7 @@ CREATE TABLE checkout (
         REFERENCES employees(id)
 );
 
+-- SECTION sales
 CREATE TABLE sales (
     id NUMBER(10) CONSTRAINT pk_sales_id PRIMARY KEY,
     sale_number NUMBER(20),
