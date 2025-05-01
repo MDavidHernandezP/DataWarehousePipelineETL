@@ -1,0 +1,8 @@
+apache-airflow==2.9.0
+great_expectations
+psycopg2-binary
+pymysql
+pyodbc
+cx_Oracle
+sqlite3
+sqlalchemy
