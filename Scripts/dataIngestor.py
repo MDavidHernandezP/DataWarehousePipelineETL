@@ -15,23 +15,22 @@ from pathlib import Path
 def get_base_dir():
     return Path(__file__).resolve().parent.parent
 
-def data_ingestor_mssql():
+def data_ingestor_mssql(server, database, username, password, N):
     # Change these values according to your MsSQLServer setup.
-    server = "localhost"    # Or the Docker container name if using Docker.
-    database = "supermercado"
-    username = "sa"
-    password = "your_secure_password"
+    server = server or "localhost"    # Or the Docker container name if using Docker.
+    database = database or "supermercado"
+    username = username or "sa"
+    password = password or "your_secure_password"
 
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
-    root_script_path = BASE_DIR / "DML" / "MsSQLServer" / "rootTablesInsertionQuery.sql"
-    middle_script_path = BASE_DIR / "DML" / "MsSQLServer" / "middleTablesInsertionQuery.sql"
-    last_script_path = BASE_DIR / "DML" / "MsSQLServer" / "lastTablesInsertionQuery.sql"
+    root_script_path = BASE_DIR / "sql" / "DML" / "MsSQLServer" / "rootTablesInsertionQuery.sql"
+    middle_script_path = BASE_DIR / "sql" / "DML" / "MsSQLServer" / "middleTablesInsertionQuery.sql"
+    last_script_path = BASE_DIR / "sql" / "DML" / "MsSQLServer" / "lastTablesInsertionQuery.sql"
 
     conn = connect_to_mssql(server, database, username, password)
     
     if conn:
-        N = 10
         data = generate_all_data(N)
         print("Inserting data into MsSQLServer...")
         execute_sql_dml_script(conn, root_script_path, data, N)
@@ -49,9 +48,9 @@ def data_ingestor_mysql():
     
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
-    root_script_path = BASE_DIR / "DML" / "MySQL" / "rootTablesInsertionQuery.sql"
-    middle_script_path = BASE_DIR / "DML" / "MySQL" / "middleTablesInsertionQuery.sql"
-    last_script_path = BASE_DIR / "DML" / "MySQL" / "lastTablesInsertionQuery.sql"
+    root_script_path = BASE_DIR / "sql" / "DML" / "MySQL" / "rootTablesInsertionQuery.sql"
+    middle_script_path = BASE_DIR / "sql" / "DML" / "MySQL" / "middleTablesInsertionQuery.sql"
+    last_script_path = BASE_DIR / "sql" / "DML" / "MySQL" / "lastTablesInsertionQuery.sql"
 
     conn = connect_to_mysql(host, user, password, database)
 
@@ -73,9 +72,9 @@ def data_ingestor_oracle():
 
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
-    root_script_path = BASE_DIR / "DML" / "Oracle XE" / "rootTablesInsertionQuery.sql"
-    middle_script_path = BASE_DIR / "DML" / "Oracle XE" / "middleTablesInsertionQuery.sql"
-    last_script_path = BASE_DIR / "DML" / "Oracle XE" / "lastTablesInsertionQuery.sql"
+    root_script_path = BASE_DIR / "sql" / "DML" / "Oracle XE" / "rootTablesInsertionQuery.sql"
+    middle_script_path = BASE_DIR / "sql" / "DML" / "Oracle XE" / "middleTablesInsertionQuery.sql"
+    last_script_path = BASE_DIR / "sql" / "DML" / "Oracle XE" / "lastTablesInsertionQuery.sql"
 
     conn = connect_to_oracle(username, password, host)
 
@@ -98,9 +97,9 @@ def data_ingestor_postgresql():
 
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
-    root_script_path = BASE_DIR / "DML" / "PostgreSQL" / "rootTablesInsertionQuery.sql"
-    middle_script_path = BASE_DIR / "DML" / "PostgreSQL" / "middleTablesInsertionQuery.sql"
-    last_script_path = BASE_DIR / "DML" / "PostgreSQL" / "lastTablesInsertionQuery.sql"
+    root_script_path = BASE_DIR / "sql" / "DML" / "PostgreSQL" / "rootTablesInsertionQuery.sql"
+    middle_script_path = BASE_DIR / "sql" / "DML" / "PostgreSQL" / "middleTablesInsertionQuery.sql"
+    last_script_path = BASE_DIR / "sql" / "DML" / "PostgreSQL" / "lastTablesInsertionQuery.sql"
 
     conn = connect_to_postgresql(host, user, password, database)
 
@@ -120,9 +119,9 @@ def data_ingestor_sqlite():
 
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
-    root_script_path = BASE_DIR / "DML" / "SQLite" / "rootTablesInsertionQuery.sql"
-    middle_script_path = BASE_DIR / "DML" / "SQLite" / "middleTablesInsertionQuery.sql"
-    last_script_path = BASE_DIR / "DML" / "SQLite" / "lastTablesInsertionQuery.sql"
+    root_script_path = BASE_DIR / "sql" / "DML" / "SQLite" / "rootTablesInsertionQuery.sql"
+    middle_script_path = BASE_DIR / "sql" / "DML" / "SQLite" / "middleTablesInsertionQuery.sql"
+    last_script_path = BASE_DIR / "sql" / "DML" / "SQLite" / "lastTablesInsertionQuery.sql"
 
     conn = connect_to_sqlite(database)
 

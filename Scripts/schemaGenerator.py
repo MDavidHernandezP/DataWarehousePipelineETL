@@ -22,9 +22,9 @@ def generate_schema_mssql():
 
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
-    root_script_path = BASE_DIR / "DDL" / "MsSQLServer" / "rootTablesCreationQuery.sql"
-    middle_script_path = BASE_DIR / "DDL" / "MsSQLServer" / "middleTablesCreationQuery.sql"
-    last_script_path = BASE_DIR / "DDL" / "MsSQLServer" / "lastTablesCreationQuery.sql"
+    root_script_path = BASE_DIR / "sql" / "DDL" / "MsSQLServer" / "rootTablesCreationQuery.sql"
+    middle_script_path = BASE_DIR / "sql" / "DDL" / "MsSQLServer" / "middleTablesCreationQuery.sql"
+    last_script_path = BASE_DIR / "sql" / "DDL" / "MsSQLServer" / "lastTablesCreationQuery.sql"
 
     connection = connect_to_mssql(server, database, username, password)
 
@@ -46,9 +46,9 @@ def generate_schema_mysql():
     
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
-    root_script_path = BASE_DIR / "DDL" / "MySQL" / "rootTablesCreationQuery.sql"
-    middle_script_path = BASE_DIR / "DDL" / "MySQL" / "middleTablesCreationQuery.sql"
-    last_script_path = BASE_DIR / "DDL" / "MySQL" / "lastTablesCreationQuery.sql"
+    root_script_path = BASE_DIR / "sql" / "DDL" / "MySQL" / "rootTablesCreationQuery.sql"
+    middle_script_path = BASE_DIR / "sql" / "DDL" / "MySQL" / "middleTablesCreationQuery.sql"
+    last_script_path = BASE_DIR / "sql" / "DDL" / "MySQL" / "lastTablesCreationQuery.sql"
 
     connection = connect_to_mysql(host, user, password, database)
 
@@ -69,9 +69,9 @@ def generate_schema_oracle():
 
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
-    root_script_path = BASE_DIR / "DDL" / "Oracle XE" / "rootTablesCreationQuery.sql"
-    middle_script_path = BASE_DIR / "DDL" / "Oracle XE" / "middleTablesCreationQuery.sql"
-    last_script_path = BASE_DIR / "DDL" / "Oracle XE" / "lastTablesCreationQuery.sql"
+    root_script_path = BASE_DIR / "sql" / "DDL" / "Oracle XE" / "rootTablesCreationQuery.sql"
+    middle_script_path = BASE_DIR / "sql" / "DDL" / "Oracle XE" / "middleTablesCreationQuery.sql"
+    last_script_path = BASE_DIR / "sql" / "DDL" / "Oracle XE" / "lastTablesCreationQuery.sql"
 
     connection = connect_to_oracle(username, password, host)
 
@@ -93,9 +93,9 @@ def generate_schema_postgresql():
 
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
-    root_script_path = BASE_DIR / "DDL" / "PostgreSQL" / "rootTablesCreationQuery.sql"
-    middle_script_path = BASE_DIR / "DDL" / "PostgreSQL" / "middleTablesCreationQuery.sql"
-    last_script_path = BASE_DIR / "DDL" / "PostgreSQL" / "lastTablesCreationQuery.sql"
+    root_script_path = BASE_DIR / "sql" / "DDL" / "PostgreSQL" / "rootTablesCreationQuery.sql"
+    middle_script_path = BASE_DIR / "sql" / "DDL" / "PostgreSQL" / "middleTablesCreationQuery.sql"
+    last_script_path = BASE_DIR / "sql" / "DDL" / "PostgreSQL" / "lastTablesCreationQuery.sql"
 
     connection = connect_to_postgresql(host, user, password, database)
 
@@ -114,9 +114,9 @@ def generate_schema_sqlite():
 
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
-    root_script_path = BASE_DIR / "DDL" / "SQLite" / "rootTablesCreationQuery.sql"
-    middle_script_path = BASE_DIR / "DDL" / "SQLite" / "middleTablesCreationQuery.sql"
-    last_script_path = BASE_DIR / "DDL" / "SQLite" / "lastTablesCreationQuery.sql"
+    root_script_path = BASE_DIR / "sql" / "DDL" / "SQLite" / "rootTablesCreationQuery.sql"
+    middle_script_path = BASE_DIR / "sql" / "DDL" / "SQLite" / "middleTablesCreationQuery.sql"
+    last_script_path = BASE_DIR / "sql" / "DDL" / "SQLite" / "lastTablesCreationQuery.sql"
 
     connection = connect_to_sqlite(database)
 
