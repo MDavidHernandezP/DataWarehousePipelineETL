@@ -1,3 +1,3 @@
-CREATE DATABASE databaseOLTP;
+CREATE DATABASE mysql_supermarket_db;
 
-USE databaseOLTP;
+USE mysql_supermarket_db;

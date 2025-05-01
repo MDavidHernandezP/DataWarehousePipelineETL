@@ -1,3 +1,3 @@
-CREATE DATABASE databaseOLTP;
+CREATE DATABASE postgresql_supermarket_db;
 
-\c databaseOLTP;
+\c postgresql_supermarket_db;

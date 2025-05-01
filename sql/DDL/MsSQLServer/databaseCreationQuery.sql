@@ -1,3 +1,3 @@
-CREATE DATABASE databaseOLTP;
+CREATE DATABASE mssql_supermarket_db;
 
-USE databaseOLTP;
+USE mssql_supermarket_db;
