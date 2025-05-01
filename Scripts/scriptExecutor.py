@@ -1,5 +1,6 @@
 # SQL script executors for executing DDL and DML scripts.
 
+# This module provides functions to execute SQL scripts for creating database schemas.
 def execute_sql_ddl_script(connection, script_path):
     try:
         cursor = connection.cursor()
@@ -26,6 +27,7 @@ def execute_sql_ddl_script(connection, script_path):
         except:
             pass
 
+# This module provides functions to execute SQL scripts for inserting data into a database.
 def execute_sql_dml_script(connection, script_path, data_dict, N):
     try:
         cursor = connection.cursor()

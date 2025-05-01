@@ -1,4 +1,4 @@
-#
+# Data ingestor script for multiple databases.
 
 from db.mssqlClient import connect_to_mssql
 from db.mysqlClient import connect_to_mysql
@@ -9,6 +9,8 @@ from db.sqliteClient import connect_to_sqlite
 from dataGenerator import generate_all_data
 
 from scriptExecutor import execute_sql_dml_script
+
+from config import get_mssql_config, get_mysql_config, get_oracle_config, get_postgresql_config, get_sqlite_config
 
 from pathlib import Path
 
@@ -39,12 +41,12 @@ def data_ingestor_mssql(server, database, username, password, N):
         print("Data inserted successfully into MsSQLServer.")
         conn.close()
 
-def data_ingestor_mysql():
+def data_ingestor_mysql(host, user, password, database, N):
     # Change these values according to your MySQL setup.
-    host = "localhost"    # Or the Docker container name if using Docker.
-    user = "root"
-    password = "yourpassword"
-    database = "yourdatabase"
+    host = host or "localhost"    # Or the Docker container name if using Docker.
+    user = user or "root"
+    password = password or "yourpassword"
+    database = database or "yourdatabase"
     
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
@@ -55,7 +57,6 @@ def data_ingestor_mysql():
     conn = connect_to_mysql(host, user, password, database)
 
     if conn:
-        N = 10
         data = generate_all_data(N)
         print("Inserting data into MySQL...")
         execute_sql_dml_script(conn, root_script_path, data, N)
@@ -64,11 +65,11 @@ def data_ingestor_mysql():
         print("Data inserted successfully into MySQL.")
         conn.close()
 
-def data_ingestor_oracle():
+def data_ingestor_oracle(host, username, password, N):
     # Change these values according to your Oracle XE setup.
-    host = "localhost"    # Or the Docker container name if using Docker.
-    username = "sa"
-    password = "your_secure_password"
+    username = username or "sa"    # Or the Docker container name if using Docker.
+    password = password or "your_secure_password"
+    host = host or "localhost"
 
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
@@ -79,7 +80,6 @@ def data_ingestor_oracle():
     conn = connect_to_oracle(username, password, host)
 
     if conn:
-        N = 10
         data = generate_all_data(N)
         print("Inserting data into Oracle...")
         execute_sql_dml_script(conn, root_script_path, data, N)
@@ -88,12 +88,12 @@ def data_ingestor_oracle():
         print("Data inserted successfully into Oracle.")
         conn.close()
 
-def data_ingestor_postgresql():
+def data_ingestor_postgresql(host, user, password, database, N):
     # Change these values according to your PostgreSQL setup.
-    host = "localhost"    # Or the Docker container name if using Docker.
-    database = "supermercado"
-    user = "postgres"
-    password = "your_secure_password"
+    host = host or "localhost"    # Or the Docker container name if using Docker.
+    user = user or "postgres"
+    password = password or "your_secure_password"
+    database = database or "supermercado"
 
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
@@ -104,7 +104,6 @@ def data_ingestor_postgresql():
     conn = connect_to_postgresql(host, user, password, database)
 
     if conn:
-        N = 10
         data = generate_all_data(N)
         print("Inserting data into PostgreSQL...")
         execute_sql_dml_script(conn, root_script_path, data, N)
@@ -113,9 +112,9 @@ def data_ingestor_postgresql():
         print("Data inserted successfully into PostgreSQL.")
         conn.close()
 
-def data_ingestor_sqlite():
+def data_ingestor_sqlite(database, N):
     # Change these values according to your SQLite setup.
-    database = "supermercado.db"
+    database = database or "supermercado.db"
 
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
@@ -126,7 +125,6 @@ def data_ingestor_sqlite():
     conn = connect_to_sqlite(database)
 
     if conn:
-        N = 10
         data = generate_all_data(N)
         print("Inserting data into SQLite...")
         execute_sql_dml_script(conn, root_script_path, data, N)
@@ -135,9 +133,23 @@ def data_ingestor_sqlite():
         print("Data inserted successfully into SQLite.")
         conn.close()
 
+def main():
+    # Load configurations.
+    mssql_config = get_mssql_config()
+    mysql_config = get_mysql_config()
+    oracle_config = get_oracle_config()
+    postgresql_config = get_postgresql_config()
+    sqlite_config = get_sqlite_config()
+
+    # Number of records to generate.
+    N = 50
+
+    # Example usage:
+    data_ingestor_mssql(**mssql_config, N=N)
+    data_ingestor_mysql(**mysql_config, N=N)
+    data_ingestor_oracle(**oracle_config, N=N)
+    data_ingestor_postgresql(**postgresql_config, N=N)
+    data_ingestor_sqlite(**sqlite_config, N=N)
+
 if __name__ == "__main__":
-    data_ingestor_mssql()
-    data_ingestor_mysql()
-    data_ingestor_oracle()
-    data_ingestor_postgresql()
-    data_ingestor_sqlite()
+    main()
