@@ -1,10 +1,10 @@
-IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'data_warehouse')
+IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'mssql_data_warehouse')
 BEGIN
-    CREATE DATABASE data_warehouse;
+    CREATE DATABASE mssql_data_warehouse;
 END;
 GO
 
-USE data_warehouse;
+USE mssql_data_warehouse;
 GO
 
 IF NOT EXISTS (SELECT * FROM sys.schemas WHERE name = 'bronze')

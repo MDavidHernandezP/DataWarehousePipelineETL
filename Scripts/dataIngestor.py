@@ -20,7 +20,7 @@ def get_base_dir():
 def data_ingestor_mssql(server, database, username, password, N):
     # Change these values according to your MsSQLServer setup.
     server = server or "localhost"    # Or the Docker container name if using Docker.
-    database = database or "supermercado"
+    database = database or "your_database"
     username = username or "sa"
     password = password or "your_secure_password"
 
@@ -45,8 +45,8 @@ def data_ingestor_mysql(host, user, password, database, N):
     # Change these values according to your MySQL setup.
     host = host or "localhost"    # Or the Docker container name if using Docker.
     user = user or "root"
-    password = password or "yourpassword"
-    database = database or "yourdatabase"
+    password = password or "your_secure_password"
+    database = database or "your_database"
     
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
@@ -67,9 +67,9 @@ def data_ingestor_mysql(host, user, password, database, N):
 
 def data_ingestor_oracle(host, username, password, N):
     # Change these values according to your Oracle XE setup.
-    username = username or "sa"    # Or the Docker container name if using Docker.
+    username = username or "sa"
     password = password or "your_secure_password"
-    host = host or "localhost"
+    host = host or "localhost"    # Or the Docker container name if using Docker.
 
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
@@ -93,7 +93,7 @@ def data_ingestor_postgresql(host, user, password, database, N):
     host = host or "localhost"    # Or the Docker container name if using Docker.
     user = user or "postgres"
     password = password or "your_secure_password"
-    database = database or "supermercado"
+    database = database or "your_database"
 
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
@@ -114,7 +114,7 @@ def data_ingestor_postgresql(host, user, password, database, N):
 
 def data_ingestor_sqlite(database, N):
     # Change these values according to your SQLite setup.
-    database = database or "supermercado.db"
+    database = database or "your_database.db"
 
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()

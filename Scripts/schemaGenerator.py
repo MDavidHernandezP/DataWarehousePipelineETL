@@ -18,7 +18,7 @@ def get_base_dir():
 def generate_schema_mssql(server, database, username, password):
     # Change these values according to your MsSQLServer setup.
     server = server or "localhost"    # Or the Docker container name if using Docker.
-    database = database or "supermercado"
+    database = database or "your_database"
     username = username or "sa"
     password = password or "your_secure_password"
 
@@ -43,8 +43,8 @@ def generate_schema_mysql(host, user, password, database):
     # Change these values according to your MySQL setup.
     host = host or "localhost"    # Or the Docker container name if using Docker.
     user = user or "root"
-    password = password or "yourpassword"
-    database = database or "yourdatabase"
+    password = password or "your_secure_password"
+    database = database or "your_database"
     
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
@@ -91,7 +91,7 @@ def generate_schema_postgresql(host, user, password, database):
     host = host or "localhost"    # Or the Docker container name if using Docker.
     user = user or "postgres"
     password = password or "your_secure_password"
-    database = database or "supermercado"
+    database = database or "your_database"
 
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
@@ -112,7 +112,7 @@ def generate_schema_postgresql(host, user, password, database):
 
 def generate_schema_sqlite(database):
     # Change these values according to your SQLite setup.
-    database = database or "supermercado.db"
+    database = database or "your_database.db"
 
     # Paths to the SQL scripts.
     BASE_DIR = get_base_dir()
