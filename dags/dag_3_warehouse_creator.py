@@ -28,7 +28,7 @@ fill_1_data_warehouse_task = PythonOperator(
     python_callable=load_mssql_tables,
     op_kwargs={
         **get_mssql_config(),
-        "table_name": "your_table_name_here"
+        "table_name": "purchases"
     },
     dag=dag
 )
@@ -38,7 +38,7 @@ fill_2_data_warehouse_task = PythonOperator(
     python_callable=load_mysql_tables,
     op_kwargs={
         **get_mysql_config(),
-        "table_name": "your_table_name_here"
+        "table_name": "prodcuts"
     },
     dag=dag
 )
@@ -48,7 +48,7 @@ fill_3_data_warehouse_task = PythonOperator(
     python_callable=load_oracle_tables,
     op_kwargs={
         **get_oracle_config(),
-        "table_name": "your_table_name_here"
+        "table_name": "checkout"
     },
     dag=dag
 )
@@ -58,7 +58,7 @@ fill_4_data_warehouse_task = PythonOperator(
     python_callable=load_postgresql_tables,
     op_kwargs={
         **get_postgresql_config(),
-        "table_name": "your_table_name_here"
+        "table_name": "sales"
     },
     dag=dag
 )
@@ -68,7 +68,7 @@ fill_5_data_warehouse_task = PythonOperator(
     python_callable=load_sqlite_tables,
     op_kwargs={
         **get_sqlite_config(),
-        "table_name": "your_table_name_here"
+        "table_name": "employees"
     },
     dag=dag
 )
