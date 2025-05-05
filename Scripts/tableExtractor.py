@@ -1,4 +1,4 @@
-# Data extractor script for multiple databases.
+# Data extractor script for multiple databases tables as Pandas Dataframes.
 
 from db.mssqlClient import connect_to_mssql
 from db.mysqlClient import connect_to_mysql
@@ -115,6 +115,10 @@ def table_extractor_sqlite(database, table_name):
     else:
         print("[ERROR] Could not establish SQLite connection.")
         return None
+    
+"""
+Extractor for csv files. Idea uncompleted for now.
+"""
 
 def main():
     # Load configurations.

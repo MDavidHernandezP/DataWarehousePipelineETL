@@ -1,3 +1,4 @@
+# This DAG is responsible for ingesting data to various databases.
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 

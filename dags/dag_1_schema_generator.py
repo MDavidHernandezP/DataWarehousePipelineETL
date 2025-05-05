@@ -1,3 +1,4 @@
+# This is an Airflow DAG that generates database schemas for different databases.
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 
