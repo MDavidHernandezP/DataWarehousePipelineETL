@@ -38,3 +38,11 @@ def get_sqlite_config():
     return {
         "database": os.getenv("SQLITE_DATABASE")
     }
+
+def get_data_warehouse_config():
+    return {
+        "server": os.getenv("MSSQL_DW_SERVER"),
+        "database": os.getenv("MSSQL_DW_DATABASE"),
+        "username": os.getenv("MSSQL_DW_USER"),
+        "password": os.getenv("MSSQL_DW_PASSWORD")
+    }
