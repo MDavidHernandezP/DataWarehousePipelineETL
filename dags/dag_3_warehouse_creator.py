@@ -38,7 +38,7 @@ fill_2_data_warehouse_task = PythonOperator(
     python_callable=load_mysql_tables,
     op_kwargs={
         **get_mysql_config(),
-        "table_name": "prodcuts"
+        "table_name": "products"
     },
     dag=dag
 )
