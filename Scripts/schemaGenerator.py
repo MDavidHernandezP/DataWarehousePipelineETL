@@ -1,12 +1,12 @@
 # Database schema generator for various databases.
 
-from db.mssqlClient import connect_to_mssql
-from db.mysqlClient import connect_to_mysql
-from db.oracleClient import connect_to_oracle
-from db.postgresqlClient import connect_to_postgresql
-from db.sqliteClient import connect_to_sqlite
+from scripts.db.mssqlClient import connect_to_mssql
+from scripts.db.mysqlClient import connect_to_mysql
+from scripts.db.oracleClient import connect_to_oracle
+from scripts.db.postgresqlClient import connect_to_postgresql
+from scripts.db.sqliteClient import connect_to_sqlite
 
-from scriptExecutor import execute_sql_ddl_script
+from scripts.scriptExecutor import execute_sql_ddl_script
 
 from config import get_mssql_config, get_mysql_config, get_oracle_config, get_postgresql_config, get_sqlite_config
 

@@ -1,10 +1,10 @@
 # Data Warehouse creator script for MsSQLServer.
 
-from db.mssqlClient import connect_to_mssql
+from scripts.db.mssqlClient import connect_to_mssql
 
-from scriptExecutor import execute_sql_ddl_script
+from scripts.scriptExecutor import execute_sql_ddl_script
 
-from tableExtractor import table_extractor_mssql, table_extractor_mysql, table_extractor_oracle, table_extractor_postgresql, table_extractor_sqlite
+from scripts.tableExtractor import table_extractor_mssql, table_extractor_mysql, table_extractor_oracle, table_extractor_postgresql, table_extractor_sqlite
 
 from config import get_data_warehouse_config, get_mssql_config, get_mysql_config, get_oracle_config, get_postgresql_config, get_sqlite_config
 

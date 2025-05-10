@@ -1,0 +1,1288 @@
+[2025-05-09T17:43:46.192+0000] {processor.py:161} INFO - Started process (PID=34) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:43:46.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T17:43:46.198+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:43:46.197+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:43:46.564+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:43:46.487+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T17:43:46.640+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:43:46.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.550 seconds
+[2025-05-09T17:44:17.079+0000] {processor.py:161} INFO - Started process (PID=44) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:44:17.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T17:44:17.085+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:44:17.085+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:44:17.135+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:44:17.129+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T17:44:17.139+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:44:17.170+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.108 seconds
+[2025-05-09T17:44:47.437+0000] {processor.py:161} INFO - Started process (PID=54) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:44:47.438+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T17:44:47.441+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:44:47.440+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:44:47.500+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:44:47.487+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T17:44:47.503+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:44:47.531+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.104 seconds
+[2025-05-09T17:47:49.022+0000] {processor.py:161} INFO - Started process (PID=32) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:47:49.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T17:47:49.026+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:47:49.025+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:47:49.059+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:47:49.053+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T17:47:49.061+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:47:49.088+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.075 seconds
+[2025-05-09T17:48:19.363+0000] {processor.py:161} INFO - Started process (PID=42) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:48:19.364+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T17:48:19.368+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:48:19.368+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:48:19.412+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:48:19.405+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T17:48:19.415+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:48:19.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.094 seconds
+[2025-05-09T17:48:50.105+0000] {processor.py:161} INFO - Started process (PID=52) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:48:50.107+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T17:48:50.113+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:48:50.110+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:48:50.162+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:48:50.153+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T17:48:50.165+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:48:50.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.118 seconds
+[2025-05-09T17:49:21.004+0000] {processor.py:161} INFO - Started process (PID=62) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:49:21.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T17:49:21.008+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:49:21.008+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:49:21.044+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:49:21.039+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T17:49:21.047+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:49:21.076+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.079 seconds
+[2025-05-09T17:49:51.821+0000] {processor.py:161} INFO - Started process (PID=72) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:49:51.823+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T17:49:51.826+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:49:51.826+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:49:51.895+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:49:51.868+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T17:49:51.903+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:49:51.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.127 seconds
+[2025-05-09T17:50:22.664+0000] {processor.py:161} INFO - Started process (PID=82) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:50:22.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T17:50:22.668+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:50:22.668+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:50:22.702+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:50:22.696+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T17:50:22.704+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:50:22.733+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.080 seconds
+[2025-05-09T17:50:53.489+0000] {processor.py:161} INFO - Started process (PID=92) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:50:53.491+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T17:50:53.494+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:50:53.493+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:50:53.558+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:50:53.549+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T17:50:53.560+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:50:53.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.124 seconds
+[2025-05-09T17:51:24.341+0000] {processor.py:161} INFO - Started process (PID=102) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:51:24.343+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T17:51:24.345+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:51:24.344+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:51:24.392+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:51:24.381+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T17:51:24.394+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:51:24.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.086 seconds
+[2025-05-09T17:51:55.121+0000] {processor.py:161} INFO - Started process (PID=112) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:51:55.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T17:51:55.126+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:51:55.125+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:51:55.178+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:51:55.170+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T17:51:55.182+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:51:55.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.096 seconds
+[2025-05-09T17:52:25.480+0000] {processor.py:161} INFO - Started process (PID=122) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:52:25.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T17:52:25.486+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:52:25.485+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:52:25.593+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:52:25.577+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T17:52:25.597+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:52:25.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.150 seconds
+[2025-05-09T17:52:56.137+0000] {processor.py:161} INFO - Started process (PID=132) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:52:56.139+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T17:52:56.142+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:52:56.142+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:52:56.194+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:52:56.179+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T17:52:56.197+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:52:56.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.108 seconds
+[2025-05-09T17:53:26.943+0000] {processor.py:161} INFO - Started process (PID=142) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:53:26.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T17:53:26.948+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:53:26.948+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:53:26.984+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:53:26.978+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T17:53:26.986+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:53:27.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.078 seconds
+[2025-05-09T17:53:57.876+0000] {processor.py:161} INFO - Started process (PID=152) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:53:57.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T17:53:57.879+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:53:57.879+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:53:57.914+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:53:57.908+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T17:53:57.916+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:53:57.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.068 seconds
+[2025-05-09T17:54:28.486+0000] {processor.py:161} INFO - Started process (PID=162) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:54:28.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T17:54:28.489+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:54:28.489+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:54:28.516+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:54:28.511+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T17:54:28.518+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T17:54:28.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.052 seconds
+[2025-05-09T18:54:06.071+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T18:54:06.074+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T18:54:06.079+0000] {logging_mixin.py:188} INFO - [2025-05-09T18:54:06.079+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T18:54:06.150+0000] {logging_mixin.py:188} INFO - [2025-05-09T18:54:06.141+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T18:54:06.154+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T18:54:06.185+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.121 seconds
+[2025-05-09T19:06:53.573+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:06:53.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T19:06:53.588+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:06:53.587+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:06:53.774+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:06:53.767+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T19:06:53.777+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:06:53.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.260 seconds
+[2025-05-09T19:07:24.138+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:07:24.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T19:07:24.220+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:07:24.219+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:07:25.371+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:07:24.792+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T19:07:25.550+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:07:25.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 1.623 seconds
+[2025-05-09T19:07:56.893+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:07:56.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T19:07:56.898+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:07:56.898+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:07:56.944+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:07:56.936+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T19:07:56.947+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:07:56.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.106 seconds
+[2025-05-09T19:08:27.137+0000] {processor.py:161} INFO - Started process (PID=215) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:08:27.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T19:08:27.147+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:08:27.147+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:08:27.176+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:08:27.172+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T19:08:27.178+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:08:27.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.074 seconds
+[2025-05-09T19:08:57.898+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:08:57.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T19:08:57.903+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:08:57.902+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:08:57.945+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:08:57.937+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T19:08:57.948+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:08:57.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.112 seconds
+[2025-05-09T19:09:28.906+0000] {processor.py:161} INFO - Started process (PID=236) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:09:28.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T19:09:28.910+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:09:28.909+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:09:28.952+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:09:28.945+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T19:09:28.956+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:09:28.998+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.101 seconds
+[2025-05-09T19:09:59.656+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:09:59.657+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T19:09:59.659+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:09:59.659+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:09:59.687+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:09:59.682+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T19:09:59.689+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:09:59.709+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.061 seconds
+[2025-05-09T19:11:30.567+0000] {processor.py:161} INFO - Started process (PID=33) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:11:30.574+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T19:11:30.580+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:11:30.579+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:11:30.643+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:11:30.635+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T19:11:30.648+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:11:30.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.135 seconds
+[2025-05-09T19:12:01.103+0000] {processor.py:161} INFO - Started process (PID=43) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:12:01.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T19:12:01.109+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:12:01.108+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:12:01.152+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:12:01.143+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T19:12:01.155+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:12:01.188+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.096 seconds
+[2025-05-09T19:12:32.012+0000] {processor.py:161} INFO - Started process (PID=53) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:12:32.014+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T19:12:32.017+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:12:32.016+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:12:32.068+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:12:32.055+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T19:12:32.072+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:12:32.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.126 seconds
+[2025-05-09T19:13:03.078+0000] {processor.py:161} INFO - Started process (PID=63) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:13:03.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T19:13:03.084+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:13:03.083+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:13:03.129+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:13:03.122+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T19:13:03.132+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:13:03.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.088 seconds
+[2025-05-09T19:13:34.044+0000] {processor.py:161} INFO - Started process (PID=73) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:13:34.045+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T19:13:34.053+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:13:34.053+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:13:34.088+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:13:34.081+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T19:13:34.090+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:13:34.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.080 seconds
+[2025-05-09T19:14:04.766+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:14:04.768+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T19:14:04.770+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:14:04.770+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:14:04.796+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:14:04.792+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T19:14:04.798+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:14:04.820+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.060 seconds
+[2025-05-09T19:14:35.563+0000] {processor.py:161} INFO - Started process (PID=93) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:14:35.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T19:14:35.577+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:14:35.568+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:14:35.628+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:14:35.622+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T19:14:35.631+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:14:35.671+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.127 seconds
+[2025-05-09T19:15:06.322+0000] {processor.py:161} INFO - Started process (PID=111) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:15:06.323+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T19:15:06.328+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:15:06.327+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:15:06.370+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:15:06.362+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T19:15:06.376+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:15:06.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.107 seconds
+[2025-05-09T19:15:37.158+0000] {processor.py:161} INFO - Started process (PID=121) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:15:37.160+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T19:15:37.168+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:15:37.167+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:15:37.226+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:15:37.214+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T19:15:37.229+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T19:15:37.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.124 seconds
+[2025-05-09T21:19:22.112+0000] {processor.py:161} INFO - Started process (PID=33) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:19:22.115+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:19:22.119+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:19:22.118+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:19:22.164+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:19:22.157+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:19:22.168+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:19:22.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.097 seconds
+[2025-05-09T21:19:52.634+0000] {processor.py:161} INFO - Started process (PID=43) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:19:52.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:19:52.637+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:19:52.637+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:19:52.678+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:19:52.671+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:19:52.680+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:19:52.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.082 seconds
+[2025-05-09T21:20:23.462+0000] {processor.py:161} INFO - Started process (PID=53) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:20:23.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:20:23.470+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:20:23.469+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:20:23.525+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:20:23.517+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:20:23.528+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:20:23.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.105 seconds
+[2025-05-09T21:20:54.357+0000] {processor.py:161} INFO - Started process (PID=63) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:20:54.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:20:54.365+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:20:54.364+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:20:54.410+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:20:54.403+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:20:54.413+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:20:54.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.102 seconds
+[2025-05-09T21:21:25.175+0000] {processor.py:161} INFO - Started process (PID=73) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:21:25.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:21:25.182+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:21:25.181+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:21:25.236+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:21:25.225+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:21:25.239+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:21:25.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.111 seconds
+[2025-05-09T21:21:55.919+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:21:55.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:21:55.929+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:21:55.928+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:21:55.962+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:21:55.956+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:21:55.964+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:21:55.989+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.079 seconds
+[2025-05-09T21:22:26.543+0000] {processor.py:161} INFO - Started process (PID=94) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:22:26.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:22:26.546+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:22:26.546+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:22:26.580+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:22:26.571+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:22:26.589+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:22:26.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.098 seconds
+[2025-05-09T21:22:57.219+0000] {processor.py:161} INFO - Started process (PID=104) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:22:57.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:22:57.223+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:22:57.222+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:22:57.258+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:22:57.249+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:22:57.262+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:22:57.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.110 seconds
+[2025-05-09T21:23:27.961+0000] {processor.py:161} INFO - Started process (PID=120) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:23:27.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:23:27.967+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:23:27.967+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:23:28.003+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:23:27.997+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:23:28.006+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:23:28.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.086 seconds
+[2025-05-09T21:23:58.778+0000] {processor.py:161} INFO - Started process (PID=130) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:23:58.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:23:58.782+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:23:58.782+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:23:58.829+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:23:58.822+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:23:58.831+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:23:58.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.091 seconds
+[2025-05-09T21:24:29.865+0000] {processor.py:161} INFO - Started process (PID=140) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:24:29.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:24:29.875+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:24:29.874+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:24:29.955+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:24:29.938+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:24:29.958+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:24:30.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.189 seconds
+[2025-05-09T21:25:00.801+0000] {processor.py:161} INFO - Started process (PID=150) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:25:00.803+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:25:00.807+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:25:00.806+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:25:00.846+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:25:00.838+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:25:00.849+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:25:00.892+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.102 seconds
+[2025-05-09T21:25:31.168+0000] {processor.py:161} INFO - Started process (PID=160) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:25:31.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:25:31.174+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:25:31.173+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:25:31.222+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:25:31.214+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:25:31.225+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:25:31.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.110 seconds
+[2025-05-09T21:26:01.360+0000] {processor.py:161} INFO - Started process (PID=170) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:26:01.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:26:01.364+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:26:01.363+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:26:01.394+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:26:01.390+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:26:01.396+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:26:01.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.067 seconds
+[2025-05-09T21:26:32.031+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:26:32.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:26:32.037+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:26:32.036+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:26:32.072+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:26:32.066+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:26:32.074+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:26:32.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.075 seconds
+[2025-05-09T21:27:02.790+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:27:02.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:27:02.793+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:27:02.793+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:27:02.838+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:27:02.832+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:27:02.841+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:27:02.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.090 seconds
+[2025-05-09T21:27:33.503+0000] {processor.py:161} INFO - Started process (PID=199) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:27:33.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:27:33.507+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:27:33.507+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:27:33.551+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:27:33.543+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:27:33.555+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:27:33.577+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.082 seconds
+[2025-05-09T21:28:04.314+0000] {processor.py:161} INFO - Started process (PID=209) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:28:04.315+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:28:04.318+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:28:04.318+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:28:04.362+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:28:04.353+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:28:04.365+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:28:04.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.078 seconds
+[2025-05-09T21:28:35.081+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:28:35.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:28:35.085+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:28:35.085+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:28:35.124+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:28:35.117+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:28:35.127+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:28:35.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.077 seconds
+[2025-05-09T21:29:05.874+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:29:05.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:29:05.880+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:29:05.880+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:29:05.928+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:29:05.921+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:29:05.930+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:29:05.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.088 seconds
+[2025-05-09T21:29:36.768+0000] {processor.py:161} INFO - Started process (PID=240) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:29:36.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:29:36.772+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:29:36.772+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:29:36.806+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:29:36.801+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:29:36.808+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:29:36.829+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.070 seconds
+[2025-05-09T21:30:07.410+0000] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:30:07.411+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:30:07.414+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:30:07.414+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:30:07.448+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:30:07.443+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:30:07.451+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:30:07.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.073 seconds
+[2025-05-09T21:30:38.192+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:30:38.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:30:38.196+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:30:38.196+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:30:38.234+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:30:38.228+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:30:38.238+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:30:38.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.086 seconds
+[2025-05-09T21:31:08.953+0000] {processor.py:161} INFO - Started process (PID=271) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:31:08.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:31:08.958+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:31:08.957+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:31:08.992+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:31:08.987+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:31:08.994+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:31:09.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.086 seconds
+[2025-05-09T21:31:39.686+0000] {processor.py:161} INFO - Started process (PID=281) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:31:39.687+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:31:39.690+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:31:39.690+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:31:39.745+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:31:39.736+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:31:39.749+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:31:39.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.104 seconds
+[2025-05-09T21:32:10.469+0000] {processor.py:161} INFO - Started process (PID=291) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:32:10.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:32:10.475+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:32:10.475+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:32:10.518+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:32:10.512+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:32:10.523+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:32:10.549+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.088 seconds
+[2025-05-09T21:32:41.367+0000] {processor.py:161} INFO - Started process (PID=301) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:32:41.368+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:32:41.371+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:32:41.371+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:32:41.414+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:32:41.407+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:32:41.417+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:32:41.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.081 seconds
+[2025-05-09T21:33:12.258+0000] {processor.py:161} INFO - Started process (PID=311) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:33:12.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:33:12.262+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:33:12.262+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:33:12.304+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:33:12.296+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:33:12.307+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:33:12.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.086 seconds
+[2025-05-09T21:33:43.101+0000] {processor.py:161} INFO - Started process (PID=321) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:33:43.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:33:43.105+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:33:43.105+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:33:43.144+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:33:43.138+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:33:43.146+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:33:43.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.093 seconds
+[2025-05-09T21:34:14.032+0000] {processor.py:161} INFO - Started process (PID=331) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:34:14.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:34:14.043+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:34:14.041+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:34:14.088+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:34:14.082+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:34:14.091+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:34:14.121+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.103 seconds
+[2025-05-09T21:34:45.186+0000] {processor.py:161} INFO - Started process (PID=341) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:34:45.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:34:45.191+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:34:45.191+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:34:45.245+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:34:45.238+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:34:45.253+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:34:45.313+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.141 seconds
+[2025-05-09T21:35:16.075+0000] {processor.py:161} INFO - Started process (PID=351) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:35:16.079+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:35:16.081+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:35:16.081+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:35:16.122+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:35:16.114+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:35:16.127+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:35:16.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.097 seconds
+[2025-05-09T21:35:46.710+0000] {processor.py:161} INFO - Started process (PID=361) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:35:46.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:35:46.716+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:35:46.715+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:35:46.765+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:35:46.757+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:35:46.769+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:35:46.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.093 seconds
+[2025-05-09T21:36:17.418+0000] {processor.py:161} INFO - Started process (PID=371) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:36:17.419+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:36:17.422+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:36:17.422+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:36:17.468+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:36:17.458+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:36:17.471+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:36:17.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.098 seconds
+[2025-05-09T21:36:48.257+0000] {processor.py:161} INFO - Started process (PID=381) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:36:48.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:36:48.265+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:36:48.264+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:36:48.309+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:36:48.301+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:36:48.312+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:36:48.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.101 seconds
+[2025-05-09T21:37:18.948+0000] {processor.py:161} INFO - Started process (PID=391) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:37:18.950+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:37:18.954+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:37:18.953+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:37:18.995+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:37:18.989+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:37:18.997+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:37:19.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.119 seconds
+[2025-05-09T21:37:49.621+0000] {processor.py:161} INFO - Started process (PID=401) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:37:49.623+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:37:49.626+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:37:49.626+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:37:49.657+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:37:49.651+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:37:49.659+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:37:49.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.076 seconds
+[2025-05-09T21:38:20.270+0000] {processor.py:161} INFO - Started process (PID=411) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:38:20.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:38:20.277+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:38:20.277+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:38:20.344+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:38:20.324+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:38:20.346+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:38:20.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.124 seconds
+[2025-05-09T21:38:51.223+0000] {processor.py:161} INFO - Started process (PID=421) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:38:51.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:38:51.229+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:38:51.228+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:38:51.266+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:38:51.258+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:38:51.269+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:38:51.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.098 seconds
+[2025-05-09T21:39:21.892+0000] {processor.py:161} INFO - Started process (PID=431) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:39:21.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:39:21.902+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:39:21.901+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:39:21.944+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:39:21.939+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:39:21.947+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:39:22.025+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.146 seconds
+[2025-05-09T21:40:14.120+0000] {processor.py:161} INFO - Started process (PID=33) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:40:14.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:40:14.125+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:40:14.124+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:40:14.160+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:40:14.154+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:40:14.163+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:40:14.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.071 seconds
+[2025-05-09T21:40:44.837+0000] {processor.py:161} INFO - Started process (PID=43) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:40:44.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:40:44.841+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:40:44.840+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:40:44.876+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:40:44.872+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:40:44.878+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:40:44.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.076 seconds
+[2025-05-09T21:41:15.670+0000] {processor.py:161} INFO - Started process (PID=53) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:41:15.675+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:41:15.678+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:41:15.677+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:41:15.714+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:41:15.706+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:41:15.716+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:41:15.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.083 seconds
+[2025-05-09T21:41:46.531+0000] {processor.py:161} INFO - Started process (PID=63) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:41:46.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:41:46.545+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:41:46.545+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:41:46.576+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:41:46.570+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:41:46.578+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:41:46.601+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.080 seconds
+[2025-05-09T21:42:17.145+0000] {processor.py:161} INFO - Started process (PID=73) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:42:17.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:42:17.151+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:42:17.150+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:42:17.188+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:42:17.183+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:42:17.190+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:42:17.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.076 seconds
+[2025-05-09T21:42:47.885+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:42:47.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T21:42:47.888+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:42:47.888+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:42:47.922+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:42:47.916+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T21:42:47.924+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T21:42:47.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.077 seconds
+[2025-05-09T22:22:41.761+0000] {processor.py:161} INFO - Started process (PID=95) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:22:41.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T22:22:41.776+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:22:41.775+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:22:41.977+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:22:41.942+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T22:22:41.987+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:22:42.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.270 seconds
+[2025-05-09T22:23:12.416+0000] {processor.py:161} INFO - Started process (PID=106) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:23:12.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T22:23:12.423+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:23:12.422+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:23:12.551+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:23:12.463+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T22:23:12.554+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:23:12.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.205 seconds
+[2025-05-09T22:23:43.348+0000] {processor.py:161} INFO - Started process (PID=115) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:23:43.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T22:23:43.354+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:23:43.353+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:23:43.396+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:23:43.388+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T22:23:43.399+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:23:43.437+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.105 seconds
+[2025-05-09T22:24:14.238+0000] {processor.py:161} INFO - Started process (PID=124) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:24:14.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T22:24:14.243+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:24:14.242+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:24:14.285+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:24:14.276+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T22:24:14.287+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:24:14.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.098 seconds
+[2025-05-09T22:24:45.227+0000] {processor.py:161} INFO - Started process (PID=134) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:24:45.229+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T22:24:45.232+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:24:45.232+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:24:45.270+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:24:45.263+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T22:24:45.273+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:24:45.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.080 seconds
+[2025-05-09T22:25:16.003+0000] {processor.py:161} INFO - Started process (PID=144) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:25:16.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T22:25:16.009+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:25:16.009+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:25:16.041+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:25:16.036+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T22:25:16.044+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:25:16.073+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.080 seconds
+[2025-05-09T22:25:46.629+0000] {processor.py:161} INFO - Started process (PID=154) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:25:46.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T22:25:46.632+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:25:46.632+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:25:46.661+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:25:46.656+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T22:25:46.662+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:25:46.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.068 seconds
+[2025-05-09T22:26:17.404+0000] {processor.py:161} INFO - Started process (PID=164) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:26:17.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T22:26:17.409+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:26:17.408+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:26:17.444+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:26:17.438+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T22:26:17.447+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:26:17.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.146 seconds
+[2025-05-09T22:26:48.279+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:26:48.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T22:26:48.285+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:26:48.284+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:26:48.319+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:26:48.312+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T22:26:48.321+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:26:48.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.077 seconds
+[2025-05-09T22:27:19.236+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:27:19.238+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T22:27:19.240+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:27:19.240+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:27:19.268+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:27:19.264+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T22:27:19.270+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:27:19.299+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.071 seconds
+[2025-05-09T22:27:50.182+0000] {processor.py:161} INFO - Started process (PID=194) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:27:50.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T22:27:50.201+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:27:50.201+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:27:50.245+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:27:50.238+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T22:27:50.248+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:27:50.293+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.118 seconds
+[2025-05-09T22:28:21.095+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:28:21.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_2_data_ingestor.py for tasks to queue
+[2025-05-09T22:28:21.101+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:28:21.100+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:28:21.149+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:28:21.139+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_2_data_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_2_data_ingestor.py", line 5, in <module>
+    from scripts.dataIngestor import data_ingestor_mssql, data_ingestor_mysql, data_ingestor_oracle, data_ingestor_postgresql, data_ingestor_sqlite
+ModuleNotFoundError: No module named 'scripts.dataIngestor'
+[2025-05-09T22:28:21.153+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_2_data_ingestor.py
+[2025-05-09T22:28:21.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_2_data_ingestor.py took 0.114 seconds

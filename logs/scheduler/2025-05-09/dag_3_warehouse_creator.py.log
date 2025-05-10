@@ -1,0 +1,1288 @@
+[2025-05-09T17:43:46.180+0000] {processor.py:161} INFO - Started process (PID=33) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:43:46.182+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T17:43:46.187+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:43:46.186+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:43:46.505+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:43:46.467+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T17:43:46.559+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:43:46.638+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.473 seconds
+[2025-05-09T17:44:16.876+0000] {processor.py:161} INFO - Started process (PID=43) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:44:16.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T17:44:16.890+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:44:16.890+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:44:17.028+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:44:17.022+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T17:44:17.031+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:44:17.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.222 seconds
+[2025-05-09T17:44:47.216+0000] {processor.py:161} INFO - Started process (PID=53) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:44:47.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T17:44:47.226+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:44:47.225+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:44:47.294+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:44:47.285+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T17:44:47.297+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:44:47.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.126 seconds
+[2025-05-09T17:47:49.016+0000] {processor.py:161} INFO - Started process (PID=31) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:47:49.018+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T17:47:49.022+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:47:49.021+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:47:49.059+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:47:49.053+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T17:47:49.061+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:47:49.089+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.083 seconds
+[2025-05-09T17:48:19.362+0000] {processor.py:161} INFO - Started process (PID=41) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:48:19.364+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T17:48:19.368+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:48:19.368+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:48:19.412+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:48:19.403+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T17:48:19.415+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:48:19.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.097 seconds
+[2025-05-09T17:48:50.092+0000] {processor.py:161} INFO - Started process (PID=51) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:48:50.094+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T17:48:50.098+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:48:50.097+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:48:50.146+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:48:50.138+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T17:48:50.149+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:48:50.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.101 seconds
+[2025-05-09T17:49:20.998+0000] {processor.py:161} INFO - Started process (PID=61) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:49:20.999+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T17:49:21.002+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:49:21.002+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:49:21.043+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:49:21.036+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T17:49:21.045+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:49:21.075+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.084 seconds
+[2025-05-09T17:49:51.820+0000] {processor.py:161} INFO - Started process (PID=71) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:49:51.823+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T17:49:51.826+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:49:51.826+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:49:51.896+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:49:51.868+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T17:49:51.903+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:49:51.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.138 seconds
+[2025-05-09T17:50:22.660+0000] {processor.py:161} INFO - Started process (PID=81) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:50:22.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T17:50:22.665+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:50:22.664+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:50:22.702+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:50:22.695+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T17:50:22.704+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:50:22.731+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.088 seconds
+[2025-05-09T17:50:53.458+0000] {processor.py:161} INFO - Started process (PID=91) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:50:53.461+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T17:50:53.469+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:50:53.469+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:50:53.535+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:50:53.527+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T17:50:53.540+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:50:53.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.126 seconds
+[2025-05-09T17:51:24.337+0000] {processor.py:161} INFO - Started process (PID=101) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:51:24.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T17:51:24.341+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:51:24.341+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:51:24.391+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:51:24.377+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T17:51:24.393+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:51:24.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.091 seconds
+[2025-05-09T17:51:55.114+0000] {processor.py:161} INFO - Started process (PID=111) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:51:55.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T17:51:55.119+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:51:55.118+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:51:55.170+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:51:55.160+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T17:51:55.172+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:51:55.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.097 seconds
+[2025-05-09T17:52:25.451+0000] {processor.py:161} INFO - Started process (PID=121) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:52:25.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T17:52:25.461+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:52:25.461+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:52:25.577+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:52:25.544+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T17:52:25.584+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:52:25.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.161 seconds
+[2025-05-09T17:52:56.125+0000] {processor.py:161} INFO - Started process (PID=131) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:52:56.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T17:52:56.133+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:52:56.132+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:52:56.183+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:52:56.170+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T17:52:56.191+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:52:56.230+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.116 seconds
+[2025-05-09T17:53:26.932+0000] {processor.py:161} INFO - Started process (PID=141) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:53:26.935+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T17:53:26.937+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:53:26.937+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:53:26.975+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:53:26.969+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T17:53:26.978+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:53:27.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.077 seconds
+[2025-05-09T17:53:57.871+0000] {processor.py:161} INFO - Started process (PID=151) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:53:57.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T17:53:57.874+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:53:57.874+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:53:57.914+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:53:57.908+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T17:53:57.916+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:53:57.938+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.076 seconds
+[2025-05-09T17:54:28.481+0000] {processor.py:161} INFO - Started process (PID=161) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:54:28.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T17:54:28.484+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:54:28.484+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:54:28.512+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:54:28.507+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T17:54:28.514+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T17:54:28.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.056 seconds
+[2025-05-09T18:54:06.054+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T18:54:06.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T18:54:06.064+0000] {logging_mixin.py:188} INFO - [2025-05-09T18:54:06.064+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T18:54:06.145+0000] {logging_mixin.py:188} INFO - [2025-05-09T18:54:06.137+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T18:54:06.147+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T18:54:06.185+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.141 seconds
+[2025-05-09T19:06:53.563+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:06:53.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T19:06:53.579+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:06:53.579+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:06:53.767+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:06:53.755+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T19:06:53.770+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:06:53.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.275 seconds
+[2025-05-09T19:07:26.010+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:07:26.019+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T19:07:26.035+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:07:26.034+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:07:26.782+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:07:26.634+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T19:07:26.814+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:07:26.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.874 seconds
+[2025-05-09T19:07:57.075+0000] {processor.py:161} INFO - Started process (PID=206) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:07:57.079+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T19:07:57.083+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:07:57.082+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:07:57.135+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:07:57.125+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T19:07:57.138+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:07:57.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.121 seconds
+[2025-05-09T19:08:27.277+0000] {processor.py:161} INFO - Started process (PID=216) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:08:27.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T19:08:27.281+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:08:27.281+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:08:27.324+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:08:27.317+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T19:08:27.327+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:08:27.351+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.081 seconds
+[2025-05-09T19:08:57.878+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:08:57.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T19:08:57.890+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:08:57.883+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:08:57.933+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:08:57.926+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T19:08:57.936+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:08:57.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.108 seconds
+[2025-05-09T19:09:28.904+0000] {processor.py:161} INFO - Started process (PID=235) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:09:28.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T19:09:28.910+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:09:28.910+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:09:28.952+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:09:28.945+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T19:09:28.956+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:09:28.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.106 seconds
+[2025-05-09T19:09:59.645+0000] {processor.py:161} INFO - Started process (PID=245) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:09:59.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T19:09:59.649+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:09:59.649+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:09:59.677+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:09:59.673+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T19:09:59.679+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:09:59.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.066 seconds
+[2025-05-09T19:11:30.545+0000] {processor.py:161} INFO - Started process (PID=32) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:11:30.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T19:11:30.566+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:11:30.565+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:11:30.640+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:11:30.630+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T19:11:30.643+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:11:30.686+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.154 seconds
+[2025-05-09T19:12:01.097+0000] {processor.py:161} INFO - Started process (PID=42) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:12:01.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T19:12:01.102+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:12:01.101+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:12:01.152+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:12:01.143+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T19:12:01.155+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:12:01.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.101 seconds
+[2025-05-09T19:12:31.991+0000] {processor.py:161} INFO - Started process (PID=52) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:12:31.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T19:12:32.003+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:12:32.002+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:12:32.061+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:12:32.049+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T19:12:32.063+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:12:32.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.137 seconds
+[2025-05-09T19:13:03.076+0000] {processor.py:161} INFO - Started process (PID=62) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:13:03.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T19:13:03.081+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:13:03.080+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:13:03.126+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:13:03.120+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T19:13:03.130+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:13:03.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.094 seconds
+[2025-05-09T19:13:34.025+0000] {processor.py:161} INFO - Started process (PID=72) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:13:34.027+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T19:13:34.031+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:13:34.030+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:13:34.065+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:13:34.059+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T19:13:34.066+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:13:34.094+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.084 seconds
+[2025-05-09T19:14:04.759+0000] {processor.py:161} INFO - Started process (PID=82) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:14:04.760+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T19:14:04.762+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:14:04.762+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:14:04.789+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:14:04.785+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T19:14:04.791+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:14:04.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.062 seconds
+[2025-05-09T19:14:35.550+0000] {processor.py:161} INFO - Started process (PID=92) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:14:35.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T19:14:35.561+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:14:35.559+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:14:35.604+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:14:35.597+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T19:14:35.606+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:14:35.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.099 seconds
+[2025-05-09T19:15:06.306+0000] {processor.py:161} INFO - Started process (PID=110) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:15:06.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T19:15:06.310+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:15:06.309+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:15:06.355+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:15:06.348+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T19:15:06.357+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:15:06.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.096 seconds
+[2025-05-09T19:15:37.138+0000] {processor.py:161} INFO - Started process (PID=120) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:15:37.141+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T19:15:37.144+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:15:37.144+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:15:37.199+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:15:37.191+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T19:15:37.202+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T19:15:37.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.119 seconds
+[2025-05-09T21:19:22.104+0000] {processor.py:161} INFO - Started process (PID=32) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:19:22.107+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:19:22.110+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:19:22.109+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:19:22.163+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:19:22.154+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:19:22.166+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:19:22.203+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.112 seconds
+[2025-05-09T21:19:52.624+0000] {processor.py:161} INFO - Started process (PID=42) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:19:52.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:19:52.631+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:19:52.631+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:19:52.675+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:19:52.666+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:19:52.677+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:19:52.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.100 seconds
+[2025-05-09T21:20:23.462+0000] {processor.py:161} INFO - Started process (PID=52) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:20:23.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:20:23.469+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:20:23.469+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:20:23.525+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:20:23.517+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:20:23.529+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:20:23.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.110 seconds
+[2025-05-09T21:20:54.347+0000] {processor.py:161} INFO - Started process (PID=62) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:20:54.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:20:54.352+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:20:54.351+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:20:54.395+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:20:54.388+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:20:54.397+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:20:54.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.082 seconds
+[2025-05-09T21:21:25.165+0000] {processor.py:161} INFO - Started process (PID=72) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:21:25.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:21:25.173+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:21:25.172+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:21:25.237+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:21:25.220+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:21:25.239+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:21:25.272+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.121 seconds
+[2025-05-09T21:21:55.907+0000] {processor.py:161} INFO - Started process (PID=82) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:21:55.909+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:21:55.911+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:21:55.911+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:21:55.943+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:21:55.937+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:21:55.945+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:21:55.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.077 seconds
+[2025-05-09T21:22:26.535+0000] {processor.py:161} INFO - Started process (PID=93) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:22:26.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:22:26.539+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:22:26.539+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:22:26.565+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:22:26.562+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:22:26.568+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:22:26.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.085 seconds
+[2025-05-09T21:22:57.216+0000] {processor.py:161} INFO - Started process (PID=103) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:22:57.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:22:57.221+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:22:57.221+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:22:57.258+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:22:57.248+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:22:57.261+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:22:57.295+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.091 seconds
+[2025-05-09T21:23:27.953+0000] {processor.py:161} INFO - Started process (PID=119) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:23:27.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:23:27.957+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:23:27.956+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:23:27.994+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:23:27.986+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:23:27.997+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:23:28.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.093 seconds
+[2025-05-09T21:23:58.772+0000] {processor.py:161} INFO - Started process (PID=129) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:23:58.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:23:58.781+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:23:58.780+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:23:58.829+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:23:58.822+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:23:58.831+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:23:58.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.098 seconds
+[2025-05-09T21:24:29.859+0000] {processor.py:161} INFO - Started process (PID=139) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:24:29.864+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:24:29.870+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:24:29.869+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:24:29.937+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:24:29.925+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:24:29.938+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:24:30.034+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.192 seconds
+[2025-05-09T21:25:00.790+0000] {processor.py:161} INFO - Started process (PID=149) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:25:00.792+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:25:00.796+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:25:00.795+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:25:00.833+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:25:00.827+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:25:00.835+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:25:00.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.089 seconds
+[2025-05-09T21:25:30.978+0000] {processor.py:161} INFO - Started process (PID=159) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:25:30.979+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:25:30.984+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:25:30.983+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:25:31.027+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:25:31.020+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:25:31.033+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:25:31.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.100 seconds
+[2025-05-09T21:26:01.200+0000] {processor.py:161} INFO - Started process (PID=169) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:26:01.202+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:26:01.204+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:26:01.204+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:26:01.273+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:26:01.240+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:26:01.277+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:26:01.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.110 seconds
+[2025-05-09T21:26:32.022+0000] {processor.py:161} INFO - Started process (PID=179) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:26:32.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:26:32.028+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:26:32.028+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:26:32.061+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:26:32.055+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:26:32.063+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:26:32.088+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.076 seconds
+[2025-05-09T21:27:02.781+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:27:02.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:27:02.785+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:27:02.785+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:27:02.824+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:27:02.818+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:27:02.826+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:27:02.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.080 seconds
+[2025-05-09T21:27:33.493+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:27:33.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:27:33.497+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:27:33.497+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:27:33.548+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:27:33.535+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:27:33.551+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:27:33.575+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.093 seconds
+[2025-05-09T21:28:04.307+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:28:04.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:28:04.311+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:28:04.310+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:28:04.355+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:28:04.346+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:28:04.357+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:28:04.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.081 seconds
+[2025-05-09T21:28:35.073+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:28:35.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:28:35.081+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:28:35.081+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:28:35.122+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:28:35.115+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:28:35.124+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:28:35.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.083 seconds
+[2025-05-09T21:29:05.871+0000] {processor.py:161} INFO - Started process (PID=229) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:29:05.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:29:05.878+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:29:05.877+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:29:05.927+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:29:05.920+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:29:05.929+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:29:05.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.093 seconds
+[2025-05-09T21:29:36.764+0000] {processor.py:161} INFO - Started process (PID=239) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:29:36.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:29:36.769+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:29:36.768+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:29:36.804+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:29:36.798+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:29:36.806+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:29:36.829+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.076 seconds
+[2025-05-09T21:30:07.412+0000] {processor.py:161} INFO - Started process (PID=250) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:30:07.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:30:07.416+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:30:07.416+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:30:07.448+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:30:07.442+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:30:07.452+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:30:07.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.079 seconds
+[2025-05-09T21:30:38.181+0000] {processor.py:161} INFO - Started process (PID=260) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:30:38.183+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:30:38.186+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:30:38.185+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:30:38.227+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:30:38.221+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:30:38.229+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:30:38.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.088 seconds
+[2025-05-09T21:31:08.946+0000] {processor.py:161} INFO - Started process (PID=270) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:31:08.948+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:31:08.956+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:31:08.956+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:31:08.992+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:31:08.987+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:31:08.994+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:31:09.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.089 seconds
+[2025-05-09T21:31:39.676+0000] {processor.py:161} INFO - Started process (PID=280) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:31:39.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:31:39.682+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:31:39.681+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:31:39.741+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:31:39.728+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:31:39.745+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:31:39.772+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.103 seconds
+[2025-05-09T21:32:10.461+0000] {processor.py:161} INFO - Started process (PID=290) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:32:10.462+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:32:10.466+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:32:10.466+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:32:10.512+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:32:10.504+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:32:10.515+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:32:10.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.089 seconds
+[2025-05-09T21:32:41.364+0000] {processor.py:161} INFO - Started process (PID=300) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:32:41.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:32:41.369+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:32:41.369+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:32:41.414+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:32:41.406+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:32:41.417+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:32:41.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.088 seconds
+[2025-05-09T21:33:12.249+0000] {processor.py:161} INFO - Started process (PID=310) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:33:12.254+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:33:12.261+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:33:12.260+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:33:12.303+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:33:12.295+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:33:12.306+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:33:12.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.091 seconds
+[2025-05-09T21:33:43.085+0000] {processor.py:161} INFO - Started process (PID=320) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:33:43.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:33:43.092+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:33:43.092+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:33:43.130+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:33:43.122+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:33:43.132+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:33:43.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.097 seconds
+[2025-05-09T21:34:14.019+0000] {processor.py:161} INFO - Started process (PID=330) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:34:14.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:34:14.026+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:34:14.025+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:34:14.067+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:34:14.061+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:34:14.069+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:34:14.103+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.102 seconds
+[2025-05-09T21:34:45.173+0000] {processor.py:161} INFO - Started process (PID=340) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:34:45.179+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:34:45.183+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:34:45.182+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:34:45.227+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:34:45.219+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:34:45.238+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:34:45.293+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.134 seconds
+[2025-05-09T21:35:16.057+0000] {processor.py:161} INFO - Started process (PID=350) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:35:16.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:35:16.077+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:35:16.077+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:35:16.120+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:35:16.113+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:35:16.122+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:35:16.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.111 seconds
+[2025-05-09T21:35:46.701+0000] {processor.py:161} INFO - Started process (PID=360) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:35:46.702+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:35:46.706+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:35:46.705+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:35:46.755+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:35:46.747+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:35:46.759+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:35:46.784+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.090 seconds
+[2025-05-09T21:36:17.404+0000] {processor.py:161} INFO - Started process (PID=370) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:36:17.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:36:17.409+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:36:17.408+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:36:17.454+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:36:17.448+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:36:17.457+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:36:17.489+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.095 seconds
+[2025-05-09T21:36:48.244+0000] {processor.py:161} INFO - Started process (PID=380) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:36:48.247+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:36:48.257+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:36:48.256+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:36:48.308+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:36:48.300+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:36:48.311+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:36:48.338+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.114 seconds
+[2025-05-09T21:37:18.935+0000] {processor.py:161} INFO - Started process (PID=390) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:37:18.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:37:18.943+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:37:18.942+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:37:18.993+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:37:18.986+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:37:18.995+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:37:19.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.129 seconds
+[2025-05-09T21:37:49.613+0000] {processor.py:161} INFO - Started process (PID=400) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:37:49.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:37:49.617+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:37:49.617+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:37:49.649+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:37:49.645+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:37:49.652+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:37:49.682+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.087 seconds
+[2025-05-09T21:38:20.262+0000] {processor.py:161} INFO - Started process (PID=410) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:38:20.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:38:20.271+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:38:20.270+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:38:20.322+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:38:20.315+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:38:20.341+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:38:20.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.132 seconds
+[2025-05-09T21:38:51.207+0000] {processor.py:161} INFO - Started process (PID=420) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:38:51.209+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:38:51.215+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:38:51.215+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:38:51.255+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:38:51.249+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:38:51.260+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:38:51.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.130 seconds
+[2025-05-09T21:39:21.873+0000] {processor.py:161} INFO - Started process (PID=430) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:39:21.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:39:21.880+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:39:21.879+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:39:21.926+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:39:21.919+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:39:21.929+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:39:21.999+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.185 seconds
+[2025-05-09T21:40:14.112+0000] {processor.py:161} INFO - Started process (PID=32) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:40:14.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:40:14.116+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:40:14.116+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:40:14.157+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:40:14.150+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:40:14.159+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:40:14.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.079 seconds
+[2025-05-09T21:40:44.824+0000] {processor.py:161} INFO - Started process (PID=42) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:40:44.826+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:40:44.831+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:40:44.829+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:40:44.872+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:40:44.867+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:40:44.874+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:40:44.901+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.091 seconds
+[2025-05-09T21:41:15.663+0000] {processor.py:161} INFO - Started process (PID=52) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:41:15.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:41:15.668+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:41:15.668+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:41:15.707+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:41:15.702+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:41:15.709+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:41:15.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.083 seconds
+[2025-05-09T21:41:46.536+0000] {processor.py:161} INFO - Started process (PID=62) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:41:46.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:41:46.542+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:41:46.541+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:41:46.576+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:41:46.570+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:41:46.579+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:41:46.602+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.084 seconds
+[2025-05-09T21:42:17.135+0000] {processor.py:161} INFO - Started process (PID=72) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:42:17.136+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:42:17.138+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:42:17.138+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:42:17.172+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:42:17.167+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:42:17.174+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:42:17.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.074 seconds
+[2025-05-09T21:42:47.877+0000] {processor.py:161} INFO - Started process (PID=82) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:42:47.879+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T21:42:47.882+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:42:47.881+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:42:47.916+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:42:47.912+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T21:42:47.919+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T21:42:47.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.077 seconds
+[2025-05-09T22:22:41.705+0000] {processor.py:161} INFO - Started process (PID=94) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:22:41.711+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T22:22:41.724+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:22:41.723+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:22:41.949+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:22:41.913+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T22:22:41.959+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:22:42.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.306 seconds
+[2025-05-09T22:23:12.292+0000] {processor.py:161} INFO - Started process (PID=105) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:23:12.377+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T22:23:12.382+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:23:12.381+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:23:12.554+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:23:12.466+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T22:23:12.557+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:23:12.601+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.324 seconds
+[2025-05-09T22:23:43.336+0000] {processor.py:161} INFO - Started process (PID=114) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:23:43.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T22:23:43.342+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:23:43.342+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:23:43.386+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:23:43.381+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T22:23:43.392+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:23:43.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.107 seconds
+[2025-05-09T22:24:14.226+0000] {processor.py:161} INFO - Started process (PID=123) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:24:14.228+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T22:24:14.231+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:24:14.231+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:24:14.269+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:24:14.263+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T22:24:14.273+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:24:14.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.101 seconds
+[2025-05-09T22:24:45.219+0000] {processor.py:161} INFO - Started process (PID=133) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:24:45.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T22:24:45.223+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:24:45.222+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:24:45.258+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:24:45.253+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T22:24:45.261+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:24:45.290+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.097 seconds
+[2025-05-09T22:25:15.998+0000] {processor.py:161} INFO - Started process (PID=143) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:25:16.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T22:25:16.009+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:25:16.009+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:25:16.042+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:25:16.036+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T22:25:16.045+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:25:16.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.085 seconds
+[2025-05-09T22:25:46.618+0000] {processor.py:161} INFO - Started process (PID=153) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:25:46.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T22:25:46.622+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:25:46.621+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:25:46.648+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:25:46.644+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T22:25:46.650+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:25:46.674+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.067 seconds
+[2025-05-09T22:26:17.394+0000] {processor.py:161} INFO - Started process (PID=163) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:26:17.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T22:26:17.398+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:26:17.398+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:26:17.438+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:26:17.431+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T22:26:17.440+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:26:17.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.088 seconds
+[2025-05-09T22:26:48.268+0000] {processor.py:161} INFO - Started process (PID=172) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:26:48.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T22:26:48.273+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:26:48.272+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:26:48.307+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:26:48.302+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T22:26:48.311+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:26:48.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.083 seconds
+[2025-05-09T22:27:19.219+0000] {processor.py:161} INFO - Started process (PID=182) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:27:19.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T22:27:19.224+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:27:19.224+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:27:19.263+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:27:19.259+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T22:27:19.265+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:27:19.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.094 seconds
+[2025-05-09T22:27:50.173+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:27:50.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T22:27:50.178+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:27:50.178+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:27:50.232+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:27:50.223+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T22:27:50.235+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:27:50.266+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.105 seconds
+[2025-05-09T22:28:21.088+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:28:21.090+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_3_warehouse_creator.py for tasks to queue
+[2025-05-09T22:28:21.093+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:28:21.092+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:28:21.144+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:28:21.135+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_3_warehouse_creator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_3_warehouse_creator.py", line 5, in <module>
+    from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tables, load_mysql_tables, load_oracle_tables, load_postgresql_tables, load_sqlite_tables
+ModuleNotFoundError: No module named 'scripts.dataWarehouse'
+[2025-05-09T22:28:21.148+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_3_warehouse_creator.py
+[2025-05-09T22:28:21.196+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_3_warehouse_creator.py took 0.122 seconds

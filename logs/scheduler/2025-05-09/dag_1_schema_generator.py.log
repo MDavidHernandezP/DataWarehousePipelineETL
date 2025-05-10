@@ -1,0 +1,1288 @@
+[2025-05-09T17:43:47.242+0000] {processor.py:161} INFO - Started process (PID=35) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:43:47.250+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T17:43:47.256+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:43:47.255+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:43:47.443+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:43:47.427+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T17:43:47.451+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:43:47.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.302 seconds
+[2025-05-09T17:44:18.172+0000] {processor.py:161} INFO - Started process (PID=45) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:44:18.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T17:44:18.177+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:44:18.176+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:44:18.238+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:44:18.230+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T17:44:18.241+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:44:18.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.116 seconds
+[2025-05-09T17:44:48.457+0000] {processor.py:161} INFO - Started process (PID=55) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:44:48.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T17:44:48.463+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:44:48.462+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:44:48.509+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:44:48.504+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T17:44:48.511+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:44:48.532+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.084 seconds
+[2025-05-09T17:47:49.157+0000] {processor.py:161} INFO - Started process (PID=33) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:47:49.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T17:47:49.173+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:47:49.172+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:47:49.212+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:47:49.207+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T17:47:49.215+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:47:49.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.098 seconds
+[2025-05-09T17:48:19.525+0000] {processor.py:161} INFO - Started process (PID=43) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:48:19.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T17:48:19.529+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:48:19.528+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:48:19.573+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:48:19.562+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T17:48:19.575+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:48:19.600+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.082 seconds
+[2025-05-09T17:48:50.265+0000] {processor.py:161} INFO - Started process (PID=53) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:48:50.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T17:48:50.270+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:48:50.269+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:48:50.318+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:48:50.310+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T17:48:50.320+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:48:50.342+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.083 seconds
+[2025-05-09T17:49:21.144+0000] {processor.py:161} INFO - Started process (PID=63) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:49:21.145+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T17:49:21.147+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:49:21.147+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:49:21.188+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:49:21.180+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T17:49:21.192+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:49:21.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.081 seconds
+[2025-05-09T17:49:52.021+0000] {processor.py:161} INFO - Started process (PID=73) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:49:52.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T17:49:52.026+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:49:52.026+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:49:52.060+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:49:52.055+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T17:49:52.061+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:49:52.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.074 seconds
+[2025-05-09T17:50:22.815+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:50:22.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T17:50:22.819+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:50:22.819+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:50:22.857+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:50:22.851+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T17:50:22.859+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:50:22.885+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.077 seconds
+[2025-05-09T17:50:53.711+0000] {processor.py:161} INFO - Started process (PID=93) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:50:53.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T17:50:53.715+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:50:53.714+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:50:53.756+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:50:53.749+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T17:50:53.759+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:50:53.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.090 seconds
+[2025-05-09T17:51:24.474+0000] {processor.py:161} INFO - Started process (PID=103) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:51:24.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T17:51:24.477+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:51:24.477+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:51:24.511+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:51:24.504+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T17:51:24.514+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:51:24.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.069 seconds
+[2025-05-09T17:51:55.273+0000] {processor.py:161} INFO - Started process (PID=113) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:51:55.275+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T17:51:55.277+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:51:55.277+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:51:55.321+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:51:55.314+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T17:51:55.324+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:51:55.352+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.086 seconds
+[2025-05-09T17:52:25.813+0000] {processor.py:161} INFO - Started process (PID=123) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:52:25.823+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T17:52:25.831+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:52:25.830+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:52:25.996+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:52:25.965+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T17:52:26.004+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:52:26.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.222 seconds
+[2025-05-09T17:52:56.327+0000] {processor.py:161} INFO - Started process (PID=133) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:52:56.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T17:52:56.333+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:52:56.332+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:52:56.386+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:52:56.375+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T17:52:56.390+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:52:56.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.102 seconds
+[2025-05-09T17:53:27.069+0000] {processor.py:161} INFO - Started process (PID=143) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:53:27.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T17:53:27.072+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:53:27.072+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:53:27.114+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:53:27.108+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T17:53:27.116+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:53:27.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.071 seconds
+[2025-05-09T17:53:57.996+0000] {processor.py:161} INFO - Started process (PID=153) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:53:57.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T17:53:57.999+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:53:57.999+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:53:58.031+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:53:58.026+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T17:53:58.034+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:53:58.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.064 seconds
+[2025-05-09T17:54:28.584+0000] {processor.py:161} INFO - Started process (PID=163) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:54:28.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T17:54:28.587+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:54:28.587+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:54:28.613+0000] {logging_mixin.py:188} INFO - [2025-05-09T17:54:28.609+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T17:54:28.615+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T17:54:28.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.051 seconds
+[2025-05-09T18:54:06.294+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T18:54:06.296+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T18:54:06.302+0000] {logging_mixin.py:188} INFO - [2025-05-09T18:54:06.301+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T18:54:06.339+0000] {logging_mixin.py:188} INFO - [2025-05-09T18:54:06.333+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T18:54:06.341+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T18:54:06.376+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.096 seconds
+[2025-05-09T19:06:54.408+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:06:54.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T19:06:54.479+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:06:54.478+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:06:54.813+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:06:54.747+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T19:06:54.815+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:06:54.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.482 seconds
+[2025-05-09T19:07:26.988+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:07:26.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T19:07:27.005+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:07:27.005+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:07:27.237+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:07:27.216+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T19:07:27.242+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:07:27.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.294 seconds
+[2025-05-09T19:07:58.133+0000] {processor.py:161} INFO - Started process (PID=207) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:07:58.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T19:07:58.184+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:07:58.183+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:07:58.316+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:07:58.308+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T19:07:58.319+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:07:58.400+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.290 seconds
+[2025-05-09T19:08:29.335+0000] {processor.py:161} INFO - Started process (PID=217) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:08:29.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T19:08:29.340+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:08:29.339+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:08:29.376+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:08:29.369+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T19:08:29.378+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:08:29.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.099 seconds
+[2025-05-09T19:09:00.075+0000] {processor.py:161} INFO - Started process (PID=227) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:09:00.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T19:09:00.083+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:09:00.082+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:09:00.263+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:09:00.253+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T19:09:00.267+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:09:00.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.268 seconds
+[2025-05-09T19:09:30.991+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:09:30.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T19:09:31.002+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:09:31.000+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:09:31.055+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:09:31.047+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T19:09:31.059+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:09:31.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.111 seconds
+[2025-05-09T19:10:01.782+0000] {processor.py:161} INFO - Started process (PID=247) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:10:01.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T19:10:01.786+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:10:01.785+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:10:01.819+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:10:01.813+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T19:10:01.822+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:10:01.849+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.082 seconds
+[2025-05-09T19:11:30.761+0000] {processor.py:161} INFO - Started process (PID=34) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:11:30.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T19:11:30.773+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:11:30.768+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:11:30.817+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:11:30.805+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T19:11:30.826+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:11:30.874+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.126 seconds
+[2025-05-09T19:12:01.261+0000] {processor.py:161} INFO - Started process (PID=44) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:12:01.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T19:12:01.265+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:12:01.265+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:12:01.303+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:12:01.295+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T19:12:01.306+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:12:01.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.075 seconds
+[2025-05-09T19:12:32.187+0000] {processor.py:161} INFO - Started process (PID=54) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:12:32.189+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T19:12:32.192+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:12:32.192+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:12:32.258+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:12:32.248+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T19:12:32.261+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:12:32.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.106 seconds
+[2025-05-09T19:13:03.255+0000] {processor.py:161} INFO - Started process (PID=64) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:13:03.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T19:13:03.261+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:13:03.260+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:13:03.335+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:13:03.329+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T19:13:03.338+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:13:03.365+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.129 seconds
+[2025-05-09T19:13:34.144+0000] {processor.py:161} INFO - Started process (PID=74) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:13:34.145+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T19:13:34.149+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:13:34.148+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:13:34.176+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:13:34.172+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T19:13:34.178+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:13:34.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.065 seconds
+[2025-05-09T19:14:04.870+0000] {processor.py:161} INFO - Started process (PID=84) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:14:04.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T19:14:04.873+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:14:04.873+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:14:04.897+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:14:04.894+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T19:14:04.899+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:14:04.917+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.057 seconds
+[2025-05-09T19:14:35.696+0000] {processor.py:161} INFO - Started process (PID=94) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:14:35.697+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T19:14:35.700+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:14:35.699+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:14:35.737+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:14:35.730+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T19:14:35.739+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:14:35.758+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.069 seconds
+[2025-05-09T19:15:06.478+0000] {processor.py:161} INFO - Started process (PID=112) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:15:06.479+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T19:15:06.482+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:15:06.481+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:15:06.519+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:15:06.513+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T19:15:06.521+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:15:06.558+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.091 seconds
+[2025-05-09T19:15:37.317+0000] {processor.py:161} INFO - Started process (PID=122) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:15:37.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T19:15:37.322+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:15:37.321+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:15:37.354+0000] {logging_mixin.py:188} INFO - [2025-05-09T19:15:37.349+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T19:15:37.357+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T19:15:37.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.076 seconds
+[2025-05-09T21:19:22.391+0000] {processor.py:161} INFO - Started process (PID=34) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:19:22.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:19:22.399+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:19:22.398+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:19:22.458+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:19:22.447+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:19:22.461+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:19:22.504+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.122 seconds
+[2025-05-09T21:19:52.771+0000] {processor.py:161} INFO - Started process (PID=44) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:19:52.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:19:52.775+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:19:52.774+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:19:52.818+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:19:52.812+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:19:52.822+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:19:52.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.083 seconds
+[2025-05-09T21:20:23.642+0000] {processor.py:161} INFO - Started process (PID=54) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:20:23.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:20:23.649+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:20:23.648+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:20:23.693+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:20:23.685+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:20:23.696+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:20:23.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.098 seconds
+[2025-05-09T21:20:54.501+0000] {processor.py:161} INFO - Started process (PID=64) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:20:54.503+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:20:54.506+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:20:54.505+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:20:54.544+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:20:54.538+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:20:54.547+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:20:54.569+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.075 seconds
+[2025-05-09T21:21:25.343+0000] {processor.py:161} INFO - Started process (PID=74) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:21:25.345+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:21:25.348+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:21:25.348+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:21:25.382+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:21:25.375+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:21:25.385+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:21:25.411+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.077 seconds
+[2025-05-09T21:21:56.028+0000] {processor.py:161} INFO - Started process (PID=84) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:21:56.030+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:21:56.032+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:21:56.032+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:21:56.055+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:21:56.052+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:21:56.057+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:21:56.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.055 seconds
+[2025-05-09T21:22:26.687+0000] {processor.py:161} INFO - Started process (PID=95) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:22:26.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:22:26.695+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:22:26.695+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:22:26.731+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:22:26.726+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:22:26.733+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:22:26.754+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.074 seconds
+[2025-05-09T21:22:57.394+0000] {processor.py:161} INFO - Started process (PID=111) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:22:57.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:22:57.399+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:22:57.398+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:22:57.436+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:22:57.429+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:22:57.438+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:22:57.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.079 seconds
+[2025-05-09T21:23:28.094+0000] {processor.py:161} INFO - Started process (PID=121) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:23:28.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:23:28.100+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:23:28.099+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:23:28.137+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:23:28.130+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:23:28.140+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:23:28.162+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.077 seconds
+[2025-05-09T21:23:58.949+0000] {processor.py:161} INFO - Started process (PID=131) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:23:58.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:23:58.955+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:23:58.954+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:23:59.027+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:23:59.014+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:23:59.031+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:23:59.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.118 seconds
+[2025-05-09T21:24:30.097+0000] {processor.py:161} INFO - Started process (PID=141) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:24:30.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:24:30.101+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:24:30.101+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:24:30.135+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:24:30.130+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:24:30.138+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:24:30.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.073 seconds
+[2025-05-09T21:25:00.962+0000] {processor.py:161} INFO - Started process (PID=151) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:25:00.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:25:00.966+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:25:00.965+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:25:01.040+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:25:01.026+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:25:01.045+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:25:01.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.129 seconds
+[2025-05-09T21:25:31.404+0000] {processor.py:161} INFO - Started process (PID=161) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:25:31.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:25:31.409+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:25:31.409+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:25:31.454+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:25:31.447+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:25:31.456+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:25:31.480+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.087 seconds
+[2025-05-09T21:26:02.399+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:26:02.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:26:02.404+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:26:02.403+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:26:02.448+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:26:02.435+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:26:02.450+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:26:02.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.086 seconds
+[2025-05-09T21:26:33.174+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:26:33.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:26:33.178+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:26:33.178+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:26:33.207+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:26:33.203+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:26:33.209+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:26:33.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.083 seconds
+[2025-05-09T21:27:03.868+0000] {processor.py:161} INFO - Started process (PID=191) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:27:03.869+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:27:03.872+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:27:03.872+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:27:03.908+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:27:03.904+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:27:03.910+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:27:03.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.080 seconds
+[2025-05-09T21:27:34.583+0000] {processor.py:161} INFO - Started process (PID=200) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:27:34.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:27:34.591+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:27:34.590+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:27:34.642+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:27:34.635+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:27:34.645+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:27:34.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.103 seconds
+[2025-05-09T21:28:05.360+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:28:05.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:28:05.363+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:28:05.363+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:28:05.403+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:28:05.395+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:28:05.406+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:28:05.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.076 seconds
+[2025-05-09T21:28:36.167+0000] {processor.py:161} INFO - Started process (PID=220) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:28:36.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:28:36.177+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:28:36.177+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:28:36.236+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:28:36.225+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:28:36.239+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:28:36.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.115 seconds
+[2025-05-09T21:29:06.949+0000] {processor.py:161} INFO - Started process (PID=231) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:29:06.950+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:29:06.953+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:29:06.952+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:29:06.999+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:29:06.992+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:29:07.002+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:29:07.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.085 seconds
+[2025-05-09T21:29:37.815+0000] {processor.py:161} INFO - Started process (PID=241) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:29:37.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:29:37.819+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:29:37.819+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:29:37.846+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:29:37.842+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:29:37.848+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:29:37.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.064 seconds
+[2025-05-09T21:30:08.460+0000] {processor.py:161} INFO - Started process (PID=252) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:30:08.461+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:30:08.463+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:30:08.463+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:30:08.491+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:30:08.486+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:30:08.493+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:30:08.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.065 seconds
+[2025-05-09T21:30:39.345+0000] {processor.py:161} INFO - Started process (PID=262) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:30:39.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:30:39.352+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:30:39.350+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:30:39.391+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:30:39.385+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:30:39.393+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:30:39.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.100 seconds
+[2025-05-09T21:31:10.032+0000] {processor.py:161} INFO - Started process (PID=272) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:31:10.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:31:10.038+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:31:10.038+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:31:10.074+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:31:10.067+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:31:10.078+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:31:10.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.088 seconds
+[2025-05-09T21:31:40.784+0000] {processor.py:161} INFO - Started process (PID=282) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:31:40.786+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:31:40.789+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:31:40.789+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:31:40.834+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:31:40.826+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:31:40.836+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:31:40.873+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.099 seconds
+[2025-05-09T21:32:11.568+0000] {processor.py:161} INFO - Started process (PID=292) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:32:11.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:32:11.574+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:32:11.573+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:32:11.624+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:32:11.617+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:32:11.626+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:32:11.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.096 seconds
+[2025-05-09T21:32:42.439+0000] {processor.py:161} INFO - Started process (PID=302) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:32:42.440+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:32:42.443+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:32:42.442+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:32:42.491+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:32:42.479+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:32:42.493+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:32:42.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.087 seconds
+[2025-05-09T21:33:13.335+0000] {processor.py:161} INFO - Started process (PID=312) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:33:13.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:33:13.339+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:33:13.339+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:33:13.382+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:33:13.377+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:33:13.385+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:33:13.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.087 seconds
+[2025-05-09T21:33:44.272+0000] {processor.py:161} INFO - Started process (PID=322) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:33:44.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:33:44.279+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:33:44.278+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:33:44.335+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:33:44.324+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:33:44.337+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:33:44.365+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.102 seconds
+[2025-05-09T21:34:15.198+0000] {processor.py:161} INFO - Started process (PID=332) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:34:15.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:34:15.203+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:34:15.203+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:34:15.242+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:34:15.235+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:34:15.246+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:34:15.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.102 seconds
+[2025-05-09T21:34:46.373+0000] {processor.py:161} INFO - Started process (PID=342) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:34:46.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:34:46.378+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:34:46.377+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:34:46.414+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:34:46.409+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:34:46.417+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:34:46.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.088 seconds
+[2025-05-09T21:35:17.104+0000] {processor.py:161} INFO - Started process (PID=352) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:35:17.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:35:17.109+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:35:17.108+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:35:17.138+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:35:17.133+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:35:17.140+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:35:17.166+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.069 seconds
+[2025-05-09T21:35:47.753+0000] {processor.py:161} INFO - Started process (PID=362) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:35:47.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:35:47.771+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:35:47.771+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:35:47.826+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:35:47.819+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:35:47.829+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:35:47.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.115 seconds
+[2025-05-09T21:36:18.483+0000] {processor.py:161} INFO - Started process (PID=372) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:36:18.485+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:36:18.488+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:36:18.488+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:36:18.534+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:36:18.526+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:36:18.537+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:36:18.559+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.085 seconds
+[2025-05-09T21:36:49.334+0000] {processor.py:161} INFO - Started process (PID=382) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:36:49.341+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:36:49.345+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:36:49.344+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:36:49.382+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:36:49.376+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:36:49.386+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:36:49.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.093 seconds
+[2025-05-09T21:37:20.017+0000] {processor.py:161} INFO - Started process (PID=392) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:37:20.019+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:37:20.022+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:37:20.021+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:37:20.062+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:37:20.055+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:37:20.065+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:37:20.092+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.084 seconds
+[2025-05-09T21:37:50.664+0000] {processor.py:161} INFO - Started process (PID=402) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:37:50.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:37:50.669+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:37:50.668+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:37:50.704+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:37:50.697+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:37:50.706+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:37:50.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.088 seconds
+[2025-05-09T21:38:21.442+0000] {processor.py:161} INFO - Started process (PID=412) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:38:21.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:38:21.448+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:38:21.447+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:38:21.487+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:38:21.480+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:38:21.493+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:38:21.560+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.130 seconds
+[2025-05-09T21:38:52.263+0000] {processor.py:161} INFO - Started process (PID=422) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:38:52.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:38:52.271+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:38:52.271+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:38:52.320+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:38:52.311+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:38:52.328+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:38:52.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.115 seconds
+[2025-05-09T21:39:22.944+0000] {processor.py:161} INFO - Started process (PID=432) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:39:22.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:39:22.949+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:39:22.948+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:39:23.002+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:39:22.991+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:39:23.004+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:39:23.034+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.098 seconds
+[2025-05-09T21:40:14.254+0000] {processor.py:161} INFO - Started process (PID=34) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:40:14.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:40:14.259+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:40:14.258+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:40:14.300+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:40:14.292+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:40:14.303+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:40:14.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.086 seconds
+[2025-05-09T21:40:44.952+0000] {processor.py:161} INFO - Started process (PID=44) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:40:44.953+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:40:44.956+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:40:44.955+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:40:44.984+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:40:44.980+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:40:44.986+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:40:45.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.070 seconds
+[2025-05-09T21:41:15.831+0000] {processor.py:161} INFO - Started process (PID=54) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:41:15.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:41:15.836+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:41:15.836+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:41:15.900+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:41:15.890+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:41:15.904+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:41:15.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.106 seconds
+[2025-05-09T21:41:46.658+0000] {processor.py:161} INFO - Started process (PID=64) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:41:46.660+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:41:46.663+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:41:46.663+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:41:46.694+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:41:46.687+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:41:46.696+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:41:46.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.070 seconds
+[2025-05-09T21:42:17.269+0000] {processor.py:161} INFO - Started process (PID=74) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:42:17.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:42:17.274+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:42:17.274+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:42:17.303+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:42:17.299+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:42:17.305+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:42:17.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.061 seconds
+[2025-05-09T21:42:48.019+0000] {processor.py:161} INFO - Started process (PID=84) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:42:48.020+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T21:42:48.023+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:42:48.022+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:42:48.048+0000] {logging_mixin.py:188} INFO - [2025-05-09T21:42:48.044+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T21:42:48.050+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T21:42:48.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.057 seconds
+[2025-05-09T22:22:42.237+0000] {processor.py:161} INFO - Started process (PID=96) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:22:42.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T22:22:42.248+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:22:42.248+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:22:42.490+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:22:42.416+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T22:22:42.528+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:22:42.569+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.341 seconds
+[2025-05-09T22:23:12.672+0000] {processor.py:161} INFO - Started process (PID=107) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:23:12.675+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T22:23:12.678+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:23:12.678+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:23:12.718+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:23:12.712+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T22:23:12.721+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:23:12.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.094 seconds
+[2025-05-09T22:23:43.600+0000] {processor.py:161} INFO - Started process (PID=116) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:23:43.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T22:23:43.605+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:23:43.604+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:23:43.656+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:23:43.646+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T22:23:43.659+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:23:43.690+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.100 seconds
+[2025-05-09T22:24:14.388+0000] {processor.py:161} INFO - Started process (PID=125) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:24:14.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T22:24:14.392+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:24:14.392+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:24:14.432+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:24:14.425+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T22:24:14.435+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:24:14.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.090 seconds
+[2025-05-09T22:24:45.344+0000] {processor.py:161} INFO - Started process (PID=135) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:24:45.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T22:24:45.353+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:24:45.352+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:24:45.387+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:24:45.382+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T22:24:45.390+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:24:45.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.080 seconds
+[2025-05-09T22:25:16.127+0000] {processor.py:161} INFO - Started process (PID=145) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:25:16.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T22:25:16.130+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:25:16.130+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:25:16.157+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:25:16.153+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T22:25:16.159+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:25:16.179+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.060 seconds
+[2025-05-09T22:25:46.735+0000] {processor.py:161} INFO - Started process (PID=155) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:25:46.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T22:25:46.738+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:25:46.738+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:25:46.764+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:25:46.760+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T22:25:46.766+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:25:46.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.061 seconds
+[2025-05-09T22:26:17.621+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:26:17.623+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T22:26:17.631+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:26:17.630+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:26:17.673+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:26:17.666+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T22:26:17.676+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:26:17.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.090 seconds
+[2025-05-09T22:26:48.400+0000] {processor.py:161} INFO - Started process (PID=174) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:26:48.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T22:26:48.403+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:26:48.403+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:26:48.436+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:26:48.430+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T22:26:48.438+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:26:48.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.071 seconds
+[2025-05-09T22:27:19.356+0000] {processor.py:161} INFO - Started process (PID=184) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:27:19.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T22:27:19.360+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:27:19.360+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:27:19.386+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:27:19.382+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T22:27:19.388+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:27:19.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.064 seconds
+[2025-05-09T22:27:50.380+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:27:50.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T22:27:50.385+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:27:50.385+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:27:50.441+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:27:50.429+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T22:27:50.444+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:27:50.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.104 seconds
+[2025-05-09T22:28:21.278+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:28:21.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_1_schema_generator.py for tasks to queue
+[2025-05-09T22:28:21.282+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:28:21.282+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:28:21.324+0000] {logging_mixin.py:188} INFO - [2025-05-09T22:28:21.316+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag_1_schema_generator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_1_schema_generator.py", line 5, in <module>
+    from scripts.schemaGenerator import generate_schema_mssql, generate_schema_mysql, generate_schema_oracle, generate_schema_postgresql, generate_schema_sqlite
+ModuleNotFoundError: No module named 'scripts.schemaGenerator'
+[2025-05-09T22:28:21.327+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_1_schema_generator.py
+[2025-05-09T22:28:21.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_1_schema_generator.py took 0.085 seconds

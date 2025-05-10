@@ -1,4 +1,4 @@
-# Data warehouse creation DAG with Specific operator from Airflow.
+# Data warehouse bronze layer creation DAG.
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 
@@ -6,7 +6,7 @@ from scripts.dataWarehouse import generate_schema_data_warehouse, load_mssql_tab
 from config import get_mssql_config, get_mysql_config, get_oracle_config, get_postgresql_config, get_sqlite_config
 
 dag = DAG(
-    'dag_2_data_ingestor',
+    'dag_3_warehouse_creator',
     default_args={
         'owner': 'airflow',
         'start_date': '2025-05-01',
