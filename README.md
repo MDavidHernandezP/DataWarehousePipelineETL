@@ -4,13 +4,20 @@
 
 This project aims to create an entire functional ETL Pipeline for building an entire system of a Data Warehouse to use it for Data Analysis purposes. In this case, beginning from constructing the workflow by desinging the Pipeline orchestrated with Airflow and Data Modeling the structure of the Database (By now using just MSSQLServer but it can be expanded to other DBMS).
 
-By now there's not much abuout the new and fixed project, but the files of the original one are in the folder: Original Project Files, there are some others folders to contain the scripts of the querys for the database in the future and the diagram of the new expected Database.
+By now there's not much about the new and fixed project, but the files of the original one are in the folder: Original Project Files, there are some others folders to contain the scripts of the querys for the database in the future and the diagram of the new expected Database.
+
+### First steps of Project
+
+### ETL Data Architecting
+
+### Data Modeling
+
+### 
 
 # Index
-- [placeholder](#placeholder)
-- [placeholder](#placeholder)
-- [placeholder](#placeholder)
-- [placeholder](#placeholder)
+- [Content Overview](#content-overview)
+- [Installation](#installation)
+- [Usage](#usage)
 - [placeholder](#placeholder)
 - [Contributions](#contributions)
 - [Credits](#credits)
@@ -18,15 +25,87 @@ By now there's not much abuout the new and fixed project, but the files of the o
 
 ## Content Overview
 
-### 1. `placeholder.py`
+### 1. `dags/`
 
 placeholder.
 
-### 2. `placeholder.py`
+### 2. `documentation/`
 
 placeholder.
 
-### 3. `placeholder/ placeholder.py`
+#### 2.1 `Original Project Files/`
+
+placeholder.
+
+#### 2.2 `SuperMarket's DB ER diagram.pdf`
+
+placeholder.
+
+### 3. `scripts/`
+
+placeholder.
+
+#### 3.1 `db/`
+
+Python scripts with the clients of each Database engine, mssqlserver, mysql, oracle, postgresql and sqlite.
+
+#### 3.2 `dataGenerator.py`
+
+placeholder.
+
+#### 3.3 `dataIngestor.py`
+
+placeholder.
+
+#### 3.4 `dataWarehouse.py`
+
+placeholder.
+
+#### 3.5 `schemaGenerator.py`
+
+placeholder.
+
+#### 3.6 `scriptExecutor.py`
+
+placeholder.
+
+#### 3.7 `tableExtractor.py`
+
+placeholder.
+
+### 4. `sql/`
+
+placeholder.
+
+#### 4.1 `DDL/`
+
+placeholder.
+
+#### 4.2 `DML/`
+
+placeholder.
+
+#### 4.3 `DQL/`
+
+placeholder.
+
+### 5. `sqlite_db/`
+
+placeholder.
+
+### 6. `config.py`
+
+placeholder.
+
+### 7. `docker-compose.yml`
+
+placeholder.
+
+### 8. `Dockerfile`
+
+placeholder.
+
+### 9. `requirements.txt`
 
 placeholder.
 
@@ -35,18 +114,22 @@ placeholder.
 1. Clone the repository:
 
     ```bash
-    git clone -b master git@github.com:MDavidHernandezP/OnlineStoreWebScraperAPI.git
-    cd "the proyect directory"
+    git clone -b master git@github.com:MDavidHernandezP/DataWarehousePipelineETL.git
+    cd "the project directory"
     ```
     
     OR:
 
     ```bash
-    git clone https://github.com/MDavidHernandezP/OnlineStoreWebScraperAPI.git
-    cd "the proyect directory"
+    git clone https://github.com/MDavidHernandezP/DataWarehousePipelineETL.git
+    cd "the project directory"
     ```
 
-2. Placeholder:
+2. Build and run the Docker containers:
+
+    ```bash
+    docker-compose up --build
+    ```
 
 ## Usage
 
@@ -65,12 +148,15 @@ Any contribution is accepted for this project we align with the MIT License for 
 
 ## Credits
 
-This project was originally created by a group team of Data Engineering Students for the subject Database Management.
+This project was originally created by a group team of Data Engineering Students for the subject Data Preprocessing.
 
 1. MARIO DAVID HERNÁNDEZ PANTOJA
-2. 
+2. LUIS ARTURO MICHEL PEREZ
+3. GERARDO HERNÁNDEZ WIDMAN
+4. OSCAR MARTINEZ ESTEVEZ
+5. MOISES JESUS CARRILLO ALONZO
 
-Then it was reinvented for its improvement and is being mantained by:
+Then it was reinvented for its improvement and is being maintained by:
 
 1. MARIO DAVID HERNÁNDEZ PANTOJA
 
