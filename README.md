@@ -1,5 +1,5 @@
 [![Python](https://img.shields.io/badge/python-3.12.1-red.svg)](https://www.python.org/)
-[![SQL](https://img.shields.io/badge/SQL-PostgreSQL%20%7C%20MySQL%20%7C%20MSSQL-lightgrey)](https://www.mysql.com/)
+[![SQL]()]()
 [![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-2.8.1-blue.svg?logo=apacheairflow&logoColor=white)](https://airflow.apache.org/)
 [![SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-2019-orange.svg?logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/en-us/sql-server)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1.svg?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
